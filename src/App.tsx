@@ -7,9 +7,9 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/ebooks" element={<Ebooks />} />
-        <Route path="/ebooks/:id" element={<EbookDetail />} />
+        <Route path="nicole-etologa-web/" element={<Home />} />
+        <Route path="nicole-etologa-web/ebooks" element={<Ebooks />} />
+        <Route path="nicole-etologa-web/ebooks/:id" element={<EbookDetail />} />
       </Routes>
     </Router>
   );
