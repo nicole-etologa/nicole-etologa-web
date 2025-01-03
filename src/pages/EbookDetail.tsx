@@ -1,7 +1,8 @@
 import { useParams, Navigate, Link } from 'react-router-dom';
-import { Book, Star, Download } from 'lucide-react';
+import { Book, Star, ShoppingCart } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import { ebooks } from '../data/ebooks';
+import PriceDisplay from '../components/PriceDisplay';
 
 export default function EbookDetail() {
   const { id } = useParams();
@@ -43,23 +44,23 @@ export default function EbookDetail() {
                 </ul>
               </div>
               <div className="flex justify-between items-center">
-                {/* <span className="text-lg font-bold text-[#e682b6] line-through">
-                  ${ebook.pastPrice}
-                </span> */}
-                <span className="text-2xl font-bold text-[#e682b6]">
-                  ${ebook.price}
-                </span>
+              <PriceDisplay
+                  originalPrice={ebook.originalPrice} 
+                  currentPrice={ebook.price}
+                />
                 <button className="bg-[#8c8cdc] text-white px-6 py-2 rounded-full hover:bg-[#7a7ac8] flex items-center">
-                  <Download className="w-5 h-5 mr-2" />
+                  <ShoppingCart className="w-5 h-5 mr-2" />
                   Comprar ahora
                 </button>
               </div>
             </div>
           </div>
         </div>
-        <Link to={`/`} className="text-[#8c8cdc] hover:text-[#e682b6] ">
+        <div className='fixed bottom-0 left-0 w-full bg-white p-4'>
+        <Link to="/home" className="text-[#8c8cdc] hover:text-[#e682b6] ">
           ← Volver al Inicio
         </Link>
+        </div>
       </div>
     </div>
   );

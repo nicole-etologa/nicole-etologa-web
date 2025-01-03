@@ -1,6 +1,7 @@
 import Navbar from '../components/Navbar';
-import { Book, Star, Download } from 'lucide-react';
+import { Book, Star, ShoppingCart } from 'lucide-react';
 import { ebooks } from '../data/ebooks';
+import PriceDisplay from '../components/PriceDisplay';
 
 const ebookDetails = ebooks;
 
@@ -42,14 +43,12 @@ export default function Ebooks() {
                     </ul>
                   </div>
                   <div className="flex justify-between items-center">
-                    {/* <span className="text-lg font-bold text-[#e682b6] line-through">
-                        ${ebook.pastPrice}
-                    </span> */}
-                    <span className="text-2xl font-bold text-[#e682b6]">
-                      ${ebook.price}
-                    </span>
+                  <PriceDisplay
+                  originalPrice={ebook.originalPrice} 
+                  currentPrice={ebook.price}
+                />
                     <button className="bg-[#8c8cdc] text-white px-6 py-2 rounded-full hover:bg-[#7a7ac8] flex items-center">
-                      <Download className="w-5 h-5 mr-2" />
+                      <ShoppingCart className="w-5 h-5 mr-2" />
                       Comprar ahora
                     </button>
                   </div>

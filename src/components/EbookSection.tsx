@@ -1,6 +1,7 @@
 import { Book } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { ebooks } from '../data/ebooks';
+import PriceDisplay from './PriceDisplay';
 
 export default function EbookSection() {
   return (
@@ -20,10 +21,10 @@ export default function EbookSection() {
                 {ebook.description}
               </p>
               <div className="flex justify-between items-center">
-                {/* <span className="text-xs font-bold text-[#e682b6] line-through">
-                  ${ebook.pastPrice}
-                </span> */}
-                <span className="text-[#e682b6] font-bold">${ebook.price}</span>
+              <PriceDisplay
+                  originalPrice={ebook.originalPrice} 
+                  currentPrice={ebook.price}
+                />
                 <Link 
                   to={`/ebooks/${ebook.id}`}
                   className="bg-[#8c8cdc] text-white px-4 py-2 rounded-full hover:bg-[#7a7ac8]"

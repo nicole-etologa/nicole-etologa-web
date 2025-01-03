@@ -4,7 +4,7 @@ export interface Ebook {
     description: string;
     fullDescription: string;
     chapters: string[];
-    pastPrice?: string;
+    originalPrice: string;
     price: string;
     rating: number;
   }
@@ -25,7 +25,7 @@ export interface Ebook {
         "Corregir comportamientos inadecuados con técnicas efectivas.",
         "Reducir el estrés y fortalecer el vinculo con el gato."
       ],
-      pastPrice: "50 USD",
+      originalPrice: "50 USD",
       price: "13 USD",
       rating: 4.8
     },
@@ -40,8 +40,8 @@ export interface Ebook {
         "Problemas de eliminación",
         "Ansiedad y estrés"
       ],
-      pastPrice: "",
-      price: "24.99",
+      originalPrice: "70 USD",
+      price: "24.99 USD",
       rating: 4.9
     },
     {
@@ -55,7 +55,8 @@ export interface Ebook {
         "Juguetes y actividades",
         "Rutinas diarias"
       ],
-      price: "22.99",
+      originalPrice: "80 USD",
+      price: "22.99 USD",
       rating: 4.7
     }
   ];
