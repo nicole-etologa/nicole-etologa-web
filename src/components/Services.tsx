@@ -1,4 +1,5 @@
 import { Video, MessageCircle, Search, CalendarHeartIcon, LandPlot, NotebookPen } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const services = [
   {
@@ -56,10 +57,12 @@ export default function Services() {
           ))}
         </div>
         <div className="flex flex-wrap justify-center gap-4">
-        <button className="bg-white text-[#e682b6] text-xl hover:bg-gray-100 border border-[#e682b6] px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform">
-              <CalendarHeartIcon className="mr-2" />
-              Quiero una Asesoría
-        </button>
+        <Link to="/asesorias">
+          <button className="bg-white text-[#e682b6] text-xl hover:bg-gray-100 border border-[#e682b6] px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform">
+            <CalendarHeartIcon className="mr-2" />
+            Quiero una Asesoría
+          </button>
+        </Link>
         </div>
       </div>
     </div>
