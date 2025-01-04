@@ -1,4 +1,4 @@
-export interface Ebook {
+export interface Mentoring {
     id: string;
     title: string;
     description: string;
@@ -9,10 +9,10 @@ export interface Ebook {
     link: string;
   }
   
-  export const ebooks: Ebook[] = [
+  export const mentorings: Mentoring[] = [
     {
-      id: "demanda-atencion",
-      title: "Demanda de Atención",
+      id: "asesoria-express",
+      title: "Asesoría Express",
       description: "Basta de maullidos excesivos, botar objetos, subirse en lugares indebidos y más",
       fullDescription: "Un completo manual que te introduce en el fascinante mundo del comportamiento felino. Aprenderás sobre las bases del comportamiento, comunicación y necesidades básicas de los gatos.",
       chapters: [
@@ -30,8 +30,8 @@ export interface Ebook {
       link: ""
     },
     {
-      id: "lenguaje-noverbal",
-      title: "Guía de Lenguaje No Verbal",
+      id: "asesoria-dinamica",
+      title: "Asesoría Dinámica",
       description: "Lo que necesitas para entender mejor a tu gato.",
       fullDescription: "Guía práctica para identificar y resolver los problemas de comportamiento más comunes en gatos. Incluye casos de estudio y soluciones paso a paso.",
       chapters: [
@@ -45,8 +45,8 @@ export interface Ebook {
       link: ""
     },
     {
-      id: "enriquecimiento-ambiental",
-      title: "Enriquecimiento Ambiental",
+      id: "asesoria-premium",
+      title: "Asesoría Premium",
       description: "Guía para crear espacios felinos estimulantes",
       fullDescription: "Aprende a crear un ambiente estimulante y seguro para tu gato. Incluye proyectos DIY y recomendaciones de productos.",
       chapters: [

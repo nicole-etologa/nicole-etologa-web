@@ -20,12 +20,12 @@ export default function EbookSection() {
               <p className="text-gray-600 mb-4">
                 {ebook.description}
               </p>
-              <div className="flex justify-between items-center">
               <PriceDisplay
-                  originalPrice={ebook.originalPrice} 
-                  currentPrice={ebook.price}
-                />
-                <Link 
+                originalPrice={ebook.originalPrice}
+                currentPrice={ebook.price}
+              />
+              <div className="flex justify-end mt-4">
+                <Link
                   to={`/ebooks/${ebook.id}`}
                   className="bg-[#8c8cdc] text-white px-4 py-2 rounded-full hover:bg-[#7a7ac8]"
                 >

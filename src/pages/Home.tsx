@@ -4,15 +4,19 @@ import Services from '../components/Services';
 import Footer from '../components/Footer';
 import EbookSection from '../components/EbookSection';
 import TestimonialsSection from '../components/TestimonialsSection';
+import LegendSection from '../components/LegendSection';
+import Contact from '../components/Contact';
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-[#e9e9f7]">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
       <Hero />
-      <EbookSection />
+      {/* <LegendSection/> */}
       <Services />
+      <EbookSection />
       <TestimonialsSection />
+      <Contact/>
       <Footer />
     </div>
   );
