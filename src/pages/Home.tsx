@@ -4,7 +4,6 @@ import Services from '../components/Services';
 import Footer from '../components/Footer';
 import EbookSection from '../components/EbookSection';
 import TestimonialsSection from '../components/TestimonialsSection';
-import LegendSection from '../components/LegendSection';
 import Contact from '../components/Contact';
 
 export default function Home() {

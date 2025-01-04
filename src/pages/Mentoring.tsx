@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-import { Book, Star, ShoppingCart, CalendarHeartIcon, CalendarPlusIcon } from 'lucide-react';
+import { Book, CalendarPlusIcon } from 'lucide-react';
 import PriceDisplay from '../components/PriceDisplay';
 import Footer from '../components/Footer';
 import { mentorings } from '../data/mentorings';

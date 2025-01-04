@@ -1,5 +1,5 @@
 import { useParams, Navigate, Link } from 'react-router-dom';
-import { Book, Star, ShoppingCart } from 'lucide-react';
+import { Book, ShoppingCart } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import { ebooks } from '../data/ebooks';
 import PriceDisplay from '../components/PriceDisplay';
@@ -26,10 +26,10 @@ export default function EbookDetail() {
                 <h2 className="text-2xl font-bold text-[#8c8cdc] mb-2">
                   {ebook.title}
                 </h2>
-                <div className="flex items-center">
+                {/* <div className="flex items-center">
                   <Star className="w-5 h-5 text-yellow-400" />
                   <span className="ml-1 text-gray-600">{ebook.rating}</span>
-                </div>
+                </div> */}
               </div>
               <p className="text-gray-600 mb-4">{ebook.fullDescription}</p>
               <div className="mb-4">

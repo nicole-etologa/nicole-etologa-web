@@ -1,4 +1,4 @@
-import { Video, CheckSquare, MessageCircle, Search, CalendarHeartIcon, LandPlot, NotebookPen } from 'lucide-react';
+import { Video, MessageCircle, Search, CalendarHeartIcon, LandPlot, NotebookPen } from 'lucide-react';
 
 const services = [
   {

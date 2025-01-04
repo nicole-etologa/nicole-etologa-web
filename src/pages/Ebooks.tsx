@@ -1,5 +1,5 @@
 import Navbar from '../components/Navbar';
-import { Book, Star, ShoppingCart } from 'lucide-react';
+import { Book, ShoppingCart } from 'lucide-react';
 import { ebooks } from '../data/ebooks';
 import PriceDisplay from '../components/PriceDisplay';
 import Footer from '../components/Footer';
