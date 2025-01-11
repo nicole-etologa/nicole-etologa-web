@@ -1,4 +1,3 @@
-import contact from "../assets/contacto.png"
 import { SiWhatsapp } from "@icons-pack/react-simple-icons";
 import profile from "../assets/profile.jpeg"
 export default function Contact() {

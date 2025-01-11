@@ -1,5 +1,4 @@
 import { BookOpen, CalendarHeartIcon } from 'lucide-react';
-import profile from "../assets/profile.jpeg"
 import profile2 from "../assets/profile2.png"
 import { Link } from 'react-router-dom';
 
