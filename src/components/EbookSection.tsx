@@ -5,11 +5,17 @@ import PriceDisplay from './PriceDisplay';
 
 export default function EbookSection() {
   return (
-    <div className="py-16 bg-white">
+    <div className="py-16 bg-gradient-to-b from-[#e9e9f7] to-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-12 text-[#8c8cdc]">
-          eBooks Destacados
+        <h2 className="text-3xl font-bold text-center mb-6 text-[#8c8cdc]">
+        Libros Electrónicos Destacados
         </h2>
+        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        ¿Prefieres empezar con una solución práctica y accesible?
+        </p>
+        <p className="text-left text-gray-600 mb-4 font-semibold">
+        Explora nuestras guías digitales para aprender más sobre tu gato:
+        </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {ebooks.map((ebook) => (
             <div key={ebook.id} className="bg-[#e9e9f7] p-6 rounded-lg shadow-lg">

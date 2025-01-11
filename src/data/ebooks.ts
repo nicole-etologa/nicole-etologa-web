@@ -12,7 +12,7 @@ export interface Ebook {
   export const ebooks: Ebook[] = [
     {
       id: "demanda-atencion",
-      title: "Demanda de Atención",
+      title: "Demanda de atención",
       description: "Basta de maullidos excesivos, botar objetos, subirse en lugares indebidos y más",
       fullDescription: "Un completo manual que te introduce en el fascinante mundo del comportamiento felino. Aprenderás sobre las bases del comportamiento, comunicación y necesidades básicas de los gatos.",
       chapters: [
@@ -31,7 +31,7 @@ export interface Ebook {
     },
     {
       id: "lenguaje-noverbal",
-      title: "Guía de Lenguaje No Verbal",
+      title: "Lenguaje no verbal en gatos",
       description: "Lo que necesitas para entender mejor a tu gato.",
       fullDescription: "Guía práctica para identificar y resolver los problemas de comportamiento más comunes en gatos. Incluye casos de estudio y soluciones paso a paso.",
       chapters: [
@@ -45,8 +45,8 @@ export interface Ebook {
       link: ""
     },
     {
-      id: "enriquecimiento-ambiental",
-      title: "Enriquecimiento Ambiental",
+      id: "repara-vinculo",
+      title: "Repara el vínculo entre tus gatos",
       description: "Guía para crear espacios felinos estimulantes",
       fullDescription: "Aprende a crear un ambiente estimulante y seguro para tu gato. Incluye proyectos DIY y recomendaciones de productos.",
       chapters: [

@@ -5,6 +5,7 @@ import Footer from '../components/Footer';
 import EbookSection from '../components/EbookSection';
 import TestimonialsSection from '../components/TestimonialsSection';
 import Contact from '../components/Contact';
+import Benefits from '../components/Benefits';
 
 export default function Home() {
   return (
@@ -13,8 +14,9 @@ export default function Home() {
       <Hero />
       {/* <LegendSection/> */}
       <Services />
-      <EbookSection />
       <TestimonialsSection />
+      <Benefits/>
+      <EbookSection />
       <Contact/>
       <Footer />
     </div>

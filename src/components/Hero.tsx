@@ -1,5 +1,6 @@
 import { BookOpen, CalendarHeartIcon } from 'lucide-react';
 import profile from "../assets/profile.jpeg"
+import profile2 from "../assets/profile2.png"
 import { Link } from 'react-router-dom';
 
 export default function Hero() {
@@ -7,9 +8,9 @@ export default function Hero() {
     <div className="bg-[#e682b6] text-white py-12">
       <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
         
-        <div className="md:w-1/3 sm:h-2/3">
+        <div className="md:w-1/3 xs:h-2/3">
           <img 
-            src={profile} 
+            src={profile2} 
             alt="Nicole Etologa" 
           />
         </div>
@@ -24,13 +25,13 @@ export default function Hero() {
             <Link to="/ebooks">
             <button className="bg-[#8c8cdc] hover:bg-[#7a7ac8] px-6 py-3 rounded-full flex items-center">
               <BookOpen className="mr-2" />
-              Quiero un eBook
+              Quiero un libro electronico
             </button>
             </Link>
             <Link to="/asesorias">
             <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-3 rounded-full flex items-center">
               <CalendarHeartIcon className="mr-2" />
-              Quiero una Asesoría
+              Quiero una asesoría
             </button>
             </Link>
           </div>
