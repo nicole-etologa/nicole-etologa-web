@@ -9,10 +9,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="*" element={<Navigate to="/" />} />
-        <Route path="/nicole-etologa-web" element={<Home />} />
-        <Route path="nicole-etologa-web/ebooks" element={<Ebooks />} />
-        <Route path="nicole-etologa-web/asesorias" element={<Mentoring />} />
-        <Route path="nicole-etologa-web/ebooks/:id" element={<EbookDetail />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/ebooks" element={<Ebooks />} />
+        <Route path="/asesorias" element={<Mentoring />} />
+        <Route path="/ebooks/:id" element={<EbookDetail />} />
       </Routes>
     </Router>
   );
