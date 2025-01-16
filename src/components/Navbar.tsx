@@ -4,7 +4,7 @@ import SocialIcons from './SocialIcons';
 
 export default function Navbar() {
   return (
-    <nav className="bg-white p-4 shadow-lg">
+    <nav className="bg-white p-4 max-sm:px-2 shadow-lg">
       <div className="container mx-auto flex items-center justify-between">
         <Link to="/" className="flex items-center space-x-2 text-white">
           <Cat className="text-[#e682b6] max-sm:hidden" size={32} />

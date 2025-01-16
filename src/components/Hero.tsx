@@ -1,13 +1,13 @@
 import { BookOpen, CalendarHeartIcon } from 'lucide-react';
 import profile2 from "../assets/profile2.png"
 import { Link } from 'react-router-dom';
+import SVGComponent from '../assets/svgComponent';
 
 export default function Hero() {
   return (
-    <div className="bg-[#e682b6] text-white py-12">
-      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between">
-        
-        <div className="md:w-1/3 xs:h-2/3">
+    <div className="bg-[#e682b6] text-white pt-12">
+      <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-around">
+        <div className="md:w-1/3 max-sm:w-2/3">
           <img 
             src={profile2} 
             alt="Nicole Etologa" 
@@ -35,6 +35,9 @@ export default function Hero() {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="relative -mt-3">
+      <SVGComponent />
       </div>
     </div>
   );

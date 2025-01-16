@@ -37,7 +37,7 @@ export default function Testimonials() {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 5000,
     nextArrow: <NextArrow />,
     prevArrow: <PrevArrow />,
@@ -55,10 +55,13 @@ export default function Testimonials() {
   return (
     <div className="py-16 bg-gradient-to-b from-[#e9e9f7] to-white">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-4 text-[#8c8cdc]">
+        <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
           Lo que dicen nuestros clientes
         </h2>
-        <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
+        <div className="w-full mb-4">
+          <div className="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>
+        </div>
+        <p className="text-center text-gray-600 mb-6 max-w-2xl mx-auto">
           Testimonios reales de nuestros clientes en redes sociales
         </p>
         <div className="max-w-lg mx-auto relative max-md:max-w-md">

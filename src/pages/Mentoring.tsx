@@ -16,7 +16,7 @@ export default function Ebooks() {
                 </h1>
                 <div className="space-y-8">
                     {mentoringDetails.map((mentoring, index) => (
-                        <div key={index} className="bg-white rounded-lg shadow-lg p-6">
+                        <div key={index} className="bg-white rounded-lg shadow-lg p-6 max-sm:p-3">
                             <div className="flex items-start gap-4">
                                 <div className="bg-[#e682b6] p-4 rounded-lg">
                                     <Book className="w-16 h-16 text-white" />
@@ -32,29 +32,33 @@ export default function Ebooks() {
                     </div> */}
                                     </div>
                                     <p className="text-gray-600 mb-4">{mentoring.description}</p>
-                                    <div className="mb-4">
-                                        <h3 className="font-semibold text-[#8c8cdc] mb-2">Contenido:</h3>
-                                        <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
-                                            {mentoring.chapters.map((chapter, idx) => (
-                                                <li key={idx} className="flex items-center text-gray-600">
-                                                    <span className="w-2 h-2 bg-[#e682b6] rounded-full mr-2"></span>
-                                                    {chapter}
-                                                </li>
-                                            ))}
-                                        </ul>
-                                    </div>
+
                                 </div>
                             </div>
-                            <div className="flex justify-between items-center mt-4">
+                            <div className="mb-4">
+                                <h3 className="font-semibold text-[#8c8cdc] my-2">Contenido:</h3>
+                                <ul className="grid grid-cols-1 md:grid-cols-2 gap-2">
+                                    {mentoring.chapters.map((chapter, idx) => (
+                                        <li key={idx} className="flex items-center text-gray-600">
+                                            <span className="w-2 h-2 bg-[#e682b6] rounded-full mr-2"></span>
+                                            {chapter}
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="flex justify-end my-4">
                                 <PriceDisplay
                                     originalPrice={mentoring.originalPrice}
                                     currentPrice={mentoring.price}
                                 />
-                                <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-3 rounded-full flex items-center border border-[#e682b6]">
+                            </div>
+                            <div className="flex flex-wrap justify-end">
+                            <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-3 rounded-full flex items-center border border-[#e682b6]">
                                     <CalendarPlusIcon className="mr-2" />
                                     Agendar esta Asesoría
-                                </button>
+                            </button>
                             </div>
+                            
                         </div>
                     ))}
                 </div>

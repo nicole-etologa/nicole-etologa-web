@@ -48,19 +48,22 @@ export default function Services() {
   return (
     <div className="py-16 bg-gradient-to-b from-white to-[#e9e9f7]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-6 text-[#8c8cdc]">
+        <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
           ¿Cómo puedo ayudarte?
         </h2>
+        <div className="w-full mb-4">
+          <div className="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>
+        </div>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           Ya sea que necesites resolver un problema de comportamiento o entender mejor a tu gato, aquí encontrarás la solución perfecta para ti y tu gato.
         </p>
-        <p className="text-left text-lg text-gray-600 mb-2 font-bold">
+        <p className="text-left text-xl text-[#8c8cdc] mb-2 font-bold">
           Asesorías Personalizadas
         </p>
         <p className="text-left text-gray-600 mb-4">
           Una solución hecha a tu medida para abordar las necesidades específicas de tu gato.
         </p>
-        <p className="text-left text-gray-600 mb-4 font-bold">
+        <p className="text-left text-lg text-[#8c8cdc] mb-4 font-bold">
           Incluye:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
