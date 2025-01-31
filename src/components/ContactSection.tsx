@@ -2,7 +2,7 @@ import { SiWhatsapp } from "@icons-pack/react-simple-icons";
 import profile from "../assets/profile.jpeg"
 export default function Contact() {
     return (
-        <section id="contact" className="py-16 bg-gradient-to-b from-white to-[#e9e9f7]">
+        <section id="contact" className="py-8 sm:py-16 bg-gradient-to-b from-white to-[#e9e9f7]">
             <div className="container mx-auto px-4">
                 <h2 className="text-3xl font-bold text-center mb-4 text-[#8c8cdc]">
                     Contacto
@@ -17,9 +17,9 @@ export default function Contact() {
                     <img className="rounded-lg" src={profile} alt="Productos Nicole Etologa" />
                 </div>
                 <div className="flex flex-wrap justify-center gap-4">
-                    <button className="w-60 h-12 rounded-full transition ease-in-out delay-150 bg-[#73c86a] hover:-translate-y-1 hover:scale-110 hover:hover:bg-[#73c86a]/80 duration-300 flex items-center justify-center text-white" onClick={() => window.open('https://api.whatsapp.com/send?phone=56947023420', '_blank')} >
-                        <SiWhatsapp className="h-5 w-5 mx-3" />
-                        Via Whatsapp
+                    <button className="bg-[#73c86a] text-white text-base sm:text-xl hover:bg-[#73c86a]/80 px-5 sm:px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform" onClick={() => window.open('https://api.whatsapp.com/send?phone=56947023420', '_blank')}>
+                        <SiWhatsapp className="mr-2" />
+                        Hablemos por Whatsapp
                     </button>
                 </div>
             </div>

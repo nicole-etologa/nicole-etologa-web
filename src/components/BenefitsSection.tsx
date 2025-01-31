@@ -26,7 +26,7 @@ const benefits= [
 
 export default function Benefits() {
   return (
-    <div className="py-16 bg-gradient-to-b from-white to-[#e9e9f7]">
+    <div className="py-8 sm:py-16 bg-gradient-to-b from-white to-[#e9e9f7]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
           Beneficios de trabajar conmigo
@@ -34,7 +34,7 @@ export default function Benefits() {
         <div className="w-full mb-8">
           <div className="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-8 mb-10">
           {benefits.map((service, index) => (
             <div key={index} className="p-6 flex flex-col items-center text-center">
               <div className="text-[#e682b6] mb-3">
@@ -51,7 +51,7 @@ export default function Benefits() {
         </div>
         <div className="flex flex-wrap justify-center gap-4">
         <Link to="/asesorias">
-          <button className="bg-white text-[#e682b6] text-xl hover:bg-gray-100 border border-[#e682b6] px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform">
+          <button className="bg-[#e682b6] text-white text-base sm:text-xl hover:bg-[#e682b6]/80 border border-white px-5 sm:px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform">
             <GraduationCap className="mr-2" />
             Quiero empezar hoy
           </button>

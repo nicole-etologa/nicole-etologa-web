@@ -10,23 +10,21 @@ export default function Hero() {
        <div className="absolute inset-0 bg-black/20"></div>
         <div className="container relative z-10 mx-auto px-4 flex flex-col md:flex-row md:items-end md:justify-end">
         <div className="md:w-1/2 mb-10 md:mb-0">
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 text-white">
-            Acompañamiento Familias Gatunas
+          <h1 className="text-2xl text-center md:text-4xl font-bold mb-6 text-white">
+            Acompañamiento para Familias Gatunas
           </h1>
           <p className="text-xl mb-8 text-white">
             Descubre como mejorar el vinculo con tu gato de manera sencilla y sin estrés.
           </p>
-          <div className="flex space-x-2 md:space-x-4">
+          <div className="flex flex-col sm:flex-row md:space-x-4 gap-4 justify-center items-center">
             <Link to="/ebooks">
-            <button className="bg-[#8c8cdc] hover:bg-[#7a7ac8] px-6 py-3 rounded-full text-white text-xs md:text-base">
-              <div className="flex flex-row gap-2 items-center">
-              <BookOpen className="text-[6rem]"/>
+            <button className="flex items-center bg-[#8c8cdc] hover:bg-[#7a7ac8] px-6 py-3 rounded-full text-white text-base">
+              <BookOpen className="mr-2"/>
               Quiero una guía
-              </div>
             </button>
             </Link>
             <Link to="/asesorias">
-            <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-3 rounded-full flex items-center text-xs md:text-base">
+            <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-3 rounded-full flex items-center text-base">
               <CalendarHeartIcon className="mr-2" />
               Quiero una asesoría
             </button>

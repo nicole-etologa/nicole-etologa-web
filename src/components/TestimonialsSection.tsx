@@ -53,7 +53,7 @@ export default function Testimonials() {
   };
 
   return (
-    <div className="py-16 bg-gradient-to-b from-[#e9e9f7] to-white">
+    <div className="py-8 sm:py-16 bg-gradient-to-b from-[#e9e9f7] to-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
           Lo que dicen nuestros clientes
@@ -72,7 +72,7 @@ export default function Testimonials() {
                   <img
                     src={testimonial.image}
                     alt={`Testimonio de ${testimonial.platform}`}
-                    className="w-full h-[600px] object-contain"
+                    className="w-full h-auto sm:h-[600px] object-contain"
                   />
                   <div className="p-4 bg-white">
                     <p className="text-sm text-gray-600">

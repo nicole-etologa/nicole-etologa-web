@@ -9,7 +9,7 @@ const mentoringDetails = mentorings;
 
 export default function Mentorings() {
     return (
-        <div className="min-h-screen bg-[#e9e9f7]">
+        <div className="min-h-screen flex flex-col bg-[#e9e9f7]">
             <Navbar />
             <div className="container mx-auto px-4 py-12">
                 <h1 className="text-4xl font-bold text-[#8c8cdc] text-center mb-12">
@@ -33,7 +33,6 @@ export default function Mentorings() {
                                         </div> */}
                                     </div>
                                     <p className="text-gray-600 mb-4">{mentoring.description}</p>
-
                                 </div>
                             </div>
                             <div className="mb-4">
@@ -58,7 +57,7 @@ export default function Mentorings() {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="mb-4">
+                            <div className="mb-6">
                                 <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">Lo que aprenderás:</h3>
                                 <ol className="grid grid-cols-1 gap-2">
                                     {mentoring.learned.map((learn, idx) => (
@@ -69,15 +68,15 @@ export default function Mentorings() {
                                     ))}
                                 </ol>
                             </div>
-                            <div className="flex justify-end my-4">
+                            <div className="mb-4">
                                 <PriceDisplay
                                     originalPrice={mentoring.originalPrice}
                                     currentPrice={mentoring.price}
                                 />
                             </div>
-                            <div className="flex flex-wrap justify-end">
-                                <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-3 rounded-full flex items-center border border-[#e682b6]" onClick={() => window.open('https://api.whatsapp.com/send?phone=56947023420', '_blank')}>
-                                    <CalendarPlusIcon className="mr-2" />
+                            <div className="flex flex-wrap justify-center md:justify-end gap-2">
+                                <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-2 rounded-full flex items-center border border-[#e682b6]" onClick={() => window.open(mentoring.link, '_blank')}>
+                                    <CalendarPlusIcon className="w-5 h-5 mr-2" />
                                     Agendar esta Asesoría
                                 </button>
                             </div>

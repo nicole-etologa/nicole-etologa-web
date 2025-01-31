@@ -41,7 +41,7 @@ export interface Mentoring {
       ],
       originalPrice: "160",
       price: "117",
-      link: "https://api.whatsapp.com/send?phone=56947023420&text='Hola Nicole, me interesa adquirir la Asesoría Premium'"
+      link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la Asesoría Premium."
     },
     {
       id: "plan-dinamico",
@@ -68,7 +68,7 @@ export interface Mentoring {
       ],
       originalPrice: "100",
       price: "67",
-      link: "https://api.whatsapp.com/send?phone=56947023420&text='Hola Nicole, me interesa adquirir la Asesoría Dinámica'"
+      link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la Asesoría Dinámica."
     },
     {
       id: "plan-express",
@@ -88,6 +88,6 @@ export interface Mentoring {
       ],
       originalPrice: "70",
       price: "47",
-      link: "https://api.whatsapp.com/send?phone=56947023420&text='Hola Nicole, me interesa adquirir la Asesoría Express'"
+      link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la Asesoría Express."
     }
   ];

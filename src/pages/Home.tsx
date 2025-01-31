@@ -1,11 +1,11 @@
 import Navbar from '../components/Navbar';
-import Hero from '../components/Hero';
-import Services from '../components/Services';
+import Hero from '../components/HeroSection';
+import Services from '../components/ServicesSection';
 import Footer from '../components/Footer';
 import EbookSection from '../components/EbookSection';
 import TestimonialsSection from '../components/TestimonialsSection';
-import Contact from '../components/Contact';
-import Benefits from '../components/Benefits';
+import Contact from '../components/ContactSection';
+import Benefits from '../components/BenefitsSection';
 
 export default function Home() {
   return (

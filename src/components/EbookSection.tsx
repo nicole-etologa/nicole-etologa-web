@@ -5,7 +5,7 @@ import PriceDisplay from './PriceDisplay';
 
 export default function EbookSection() {
   return (
-    <div className="py-16 bg-gradient-to-b from-[#e9e9f7] to-white">
+    <div className="py-8 sm:py-16 bg-gradient-to-b from-[#e9e9f7] to-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
         Libros Electrónicos Destacados
@@ -21,19 +21,21 @@ export default function EbookSection() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {ebooks.map((ebook) => (
-            <div key={ebook.id} className="bg-white p-6 rounded-lg shadow-lg">
-              <Book className="w-12 h-12 text-[#e682b6] mb-4" />
-              <h3 className="text-xl font-semibold mb-2 text-[#8c8cdc]">
+            <div key={ebook.id} className="bg-white p-6 rounded-lg shadow-lg grid grid-rows items-center gap-4">
+              <div className='flex flex-row items-center gap-3'>
+              <Book className="w-12 h-12 text-[#e682b6]" />
+              <h3 className="text-xl font-semibold text-[#8c8cdc]">
                 {ebook.title}
               </h3>
-              <p className="text-gray-600 mb-4">
+              </div>
+              <p className="text-gray-600">
                 {ebook.description}
               </p>
               <PriceDisplay
                 originalPrice={ebook.originalPrice}
                 currentPrice={ebook.price}
               />
-              <div className="flex justify-end mt-4">
+              <div className="flex justify-end">
                 <Link
                   to={`/ebooks/${ebook.id}`}
                   className="bg-[#8c8cdc] text-white px-4 py-2 rounded-full hover:bg-[#7a7ac8]"

@@ -31,7 +31,7 @@ const services = [
 
 export default function Services() {
   return (
-    <div className="py-16 bg-gradient-to-b from-white to-[#e9e9f7]">
+    <div className="py-8 sm:py-16 bg-gradient-to-b from-white to-[#e9e9f7]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
           ¿Cómo puedo ayudarte?
@@ -51,7 +51,7 @@ export default function Services() {
         <p className="text-left text-lg text-[#8c8cdc] mb-4 font-bold">
           Incluye:
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 sm:gap-8 mb-10">
           {services.map((service, index) => (
             <div key={index} className="p-6 flex flex-col items-center text-center">
               <div className="text-[#e682b6] mb-3">
@@ -68,7 +68,7 @@ export default function Services() {
         </div>
         <div className="flex flex-wrap justify-center gap-4">
         <Link to="/asesorias">
-          <button className="bg-white text-[#e682b6] text-xl hover:bg-gray-100 border border-[#e682b6] px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform">
+          <button className="bg-white text-[#e682b6] text-base sm:text-xl hover:bg-gray-100 border border-[#e682b6] px-5 sm:px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform">
             <CalendarHeartIcon className="mr-2" />
             Quiero saber más
           </button>
