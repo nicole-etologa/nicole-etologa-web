@@ -11,6 +11,21 @@ export interface Ebook {
   
   export const ebooks: Ebook[] = [
     {
+      id: "lenguaje-noverbal",
+      title: "Lenguaje no verbal en gatos",
+      description: "Lo que necesitas para entender mejor a tu gato.",
+      fullDescription: "Guía práctica para identificar y resolver los problemas de comportamiento más comunes en gatos. Incluye casos de estudio y soluciones paso a paso.",
+      chapters: [
+        "Agresividad",
+        "Marcaje territorial",
+        "Problemas de eliminación",
+        "Ansiedad y estrés"
+      ],
+      originalPrice: "32",
+      price: "9",
+      link: "https://bit.ly/3Cj8Www"
+    },
+    {
       id: "demanda-atencion",
       title: "Demanda de atención",
       description: "Basta de maullidos excesivos, botar objetos, subirse en lugares indebidos y más",
@@ -25,38 +40,8 @@ export interface Ebook {
         "Corregir comportamientos inadecuados con técnicas efectivas.",
         "Reducir el estrés y fortalecer el vinculo con el gato."
       ],
-      originalPrice: "50 USD",
-      price: "13 USD",
-      link: ""
-    },
-    {
-      id: "lenguaje-noverbal",
-      title: "Lenguaje no verbal en gatos",
-      description: "Lo que necesitas para entender mejor a tu gato.",
-      fullDescription: "Guía práctica para identificar y resolver los problemas de comportamiento más comunes en gatos. Incluye casos de estudio y soluciones paso a paso.",
-      chapters: [
-        "Agresividad",
-        "Marcaje territorial",
-        "Problemas de eliminación",
-        "Ansiedad y estrés"
-      ],
-      originalPrice: "70 USD",
-      price: "24.99 USD",
-      link: ""
-    },
-    {
-      id: "repara-vinculo",
-      title: "Repara el vínculo entre tus gatos",
-      description: "Guía para crear espacios felinos estimulantes",
-      fullDescription: "Aprende a crear un ambiente estimulante y seguro para tu gato. Incluye proyectos DIY y recomendaciones de productos.",
-      chapters: [
-        "Principios del enriquecimiento",
-        "Diseño de espacios",
-        "Juguetes y actividades",
-        "Rutinas diarias"
-      ],
-      originalPrice: "80 USD",
-      price: "22.99 USD",
-      link: ""
+      originalPrice: "20",
+      price: "7",
+      link: "https://bit.ly/3PJdv6l"
     }
   ];

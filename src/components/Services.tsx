@@ -3,39 +3,24 @@ import { Link } from 'react-router-dom';
 
 const services = [
   {
-    icon: <Search className="w-8 h-8" />,
-    title: "Evaluación previa detallada",
-    description: "Analizamos a fondo el comportamiento de tu gato para diseñar estrategias únicas."
-  },
-  {
-    icon: <Video className="w-8 h-8" />,
+    icon: <Video className="h-12 w-12" />,
     title: "Sesión en vivo",
     description: "Resolvemos tus dudas y trazamos un plan práctico."
   },
   {
-    icon: <NotebookPen className="w-8 h-8" />,
+    icon: <NotebookPen className="h-12 w-12" />,
     title: "Plan de acción",
     description: "Un plan paso a paso sencillo y efectivo, diseñado exclusivamente para tu caso."
   },
   {
-    icon: <MessageCircle className="w-8 h-8" />,
+    icon: <MessageCircle className="h-12 w-12" />,
     title: "Seguimiento cercano y apoyo continuo",
     description: "Estoy contigo en cada paso, resolviendo dudas y ajustando estrategias según los avances."
   },
   {
-    icon: <PawPrint className="w-8 h-8" />,
-    title: "Métodos respetuosos y efectivos",
-    description: "Estrategias sin estrés, siempre priorizando el bienestar de tu gato"
-  },
-  {
-    icon: <LandPlot className="w-8 h-8" />,
+    icon: <LandPlot className="h-12 w-12" />,
     title: "Objetivos claros y alcanzables",
     description: "Cambios visibles desde el primer día, enfocados en mejorar su relación."
-  },
-  {
-    icon: <BookOpen className="w-8 h-8" />,
-    title: "Recursos adicionales",
-    description: "Guías y materiales complementarios para reforzar el proceso."
   },
   // {
   //   icon: <Users className="w-8 h-8" />,
@@ -68,7 +53,7 @@ export default function Services() {
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
           {services.map((service, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:transform hover:scale-105 transition-transform">
+            <div key={index} className="p-6 flex flex-col items-center text-center">
               <div className="text-[#e682b6] mb-3">
                 {service.icon}
               </div>
@@ -85,7 +70,7 @@ export default function Services() {
         <Link to="/asesorias">
           <button className="bg-white text-[#e682b6] text-xl hover:bg-gray-100 border border-[#e682b6] px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform">
             <CalendarHeartIcon className="mr-2" />
-            Quiero una Asesoría
+            Quiero saber más
           </button>
         </Link>
         </div>

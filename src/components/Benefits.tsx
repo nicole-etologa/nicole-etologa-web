@@ -3,17 +3,17 @@ import { Link } from 'react-router-dom';
 
 const benefits= [
   {
-    icon: <CheckSquare className="w-8 h-8" />,
+    icon: <CheckSquare className="h-12 w-12" />,
     title: "Resultados reales",
     description: "Mejora la convivencia y reduce el estrés."
   },
   {
-    icon: <Wrench className="w-8 h-8" />,
+    icon: <Wrench className="h-12 w-12" />,
     title: "Acceso a herramientas prácticas",
     description: "Consejos, guías y estrategias fáciles de implementar."
   },
   {
-    icon: <Contact2 className="w-8 h-8" />,
+    icon: <Contact2 className="h-12 w-12" />,
     title: "Atención personalizada",
     description: "Cada caso es único y recibe todo el tiempo y cuidado que necesita."
   }
@@ -36,7 +36,7 @@ export default function Benefits() {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-10">
           {benefits.map((service, index) => (
-            <div key={index} className="bg-white p-6 rounded-lg shadow-lg hover:transform hover:scale-105 transition-transform">
+            <div key={index} className="p-6 flex flex-col items-center text-center">
               <div className="text-[#e682b6] mb-3">
                 {service.icon}
               </div>

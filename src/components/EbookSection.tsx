@@ -16,12 +16,12 @@ export default function EbookSection() {
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
         ¿Prefieres empezar con una solución práctica y accesible?
         </p>
-        <p className="text-left text-[#8c8cdc] mb-4 font-semibold">
+        <p className="text-left text-lg text-[#8c8cdc] mb-4 font-semibold">
         Explora nuestras guías digitales para aprender más sobre tu gato:
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {ebooks.map((ebook) => (
-            <div key={ebook.id} className="bg-[#e9e9f7] p-6 rounded-lg shadow-lg">
+            <div key={ebook.id} className="bg-white p-6 rounded-lg shadow-lg">
               <Book className="w-12 h-12 text-[#e682b6] mb-4" />
               <h3 className="text-xl font-semibold mb-2 text-[#8c8cdc]">
                 {ebook.title}

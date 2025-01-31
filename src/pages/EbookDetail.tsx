@@ -13,10 +13,10 @@ export default function EbookDetail() {
   }
 
   return (
-    <div className="min-h-screen bg-[#e9e9f7]">
+    <div className="bg-[#e9e9f7]">
       <Navbar />
       <div className="container mx-auto px-4 py-12">
-        <div className="bg-white rounded-lg shadow-lg p-6">
+        <div className="bg-white rounded-lg shadow-lg p-5">
           <div className="flex items-start gap-6">
             <div className="bg-[#e682b6] p-4 rounded-lg">
               <Book className="w-16 h-16 text-white" />
@@ -48,10 +48,12 @@ export default function EbookDetail() {
                   originalPrice={ebook.originalPrice} 
                   currentPrice={ebook.price}
                 />
+                <a href={ebook.link} target="_blank" rel="noopener noreferrer">
                 <button className="bg-[#8c8cdc] text-white px-6 py-2 rounded-full hover:bg-[#7a7ac8] flex items-center">
                   <ShoppingCart className="w-5 h-5 mr-2" />
                   Comprar ahora
                 </button>
+                </a>
               </div>
             </div>
           </div>
