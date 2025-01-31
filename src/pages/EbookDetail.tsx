@@ -1,4 +1,4 @@
-import { useParams, Navigate, Link } from 'react-router-dom';
+import { useParams, Navigate} from 'react-router-dom';
 import { Book, ShoppingCart } from 'lucide-react';
 import Navbar from '../components/Navbar';
 import { ebooks } from '../data/ebooks';

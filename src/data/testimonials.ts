@@ -1,4 +1,3 @@
-import image1 from "../assets/screen.jpg"
 import screen1 from "../assets/screen1.jpg"
 import screen2 from "../assets/screen2.jpg"
 import screen3 from "../assets/screen3.jpg"

@@ -1,4 +1,4 @@
-import { Video, MessageCircle, Search, CalendarHeartIcon, LandPlot, NotebookPen, BookOpen, PawPrint } from 'lucide-react';
+import { Video, MessageCircle, CalendarHeartIcon, LandPlot, NotebookPen} from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 const services = [
