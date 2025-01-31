@@ -8,12 +8,12 @@ export default function Navbar() {
       <div className="container mx-auto flex items-center justify-between max-md:my-4">
         <Link to="/" className="flex items-center space-x-1 sm:space-x-2 text-white">
           <Cat className="text-white max-sm:hidden" size={32} />
-          <span className="text-base sm:text-xl font-bold text-white">Nicole Etologa</span>
+          <span className="text-base sm:text-xl font-bold text-white">Nicole Etóloga</span>
         </Link>
         <div className="flex flex-col md:flex-row items-center space-y-4 md:space-y-0">
           <div className="flex space-x-2 md:mr-6 sm:space-x-6">
             <Link to="/" className="text-sm sm:text-base hover:text-[#8c8cdc] text-white transition-colors">Inicio</Link>
-            <Link to="/ebooks" className="text-sm sm:text-base hover:text-[#8c8cdc] text-white transition-colors">eBooks</Link>
+            <Link to="/ebooks" className="text-sm sm:text-base hover:text-[#8c8cdc] text-white transition-colors">Guías</Link>
             <Link to="/asesorias" className="text-sm sm:text-base hover:text-[#8c8cdc] text-white transition-colors">Asesorías</Link>
             <a href="https://api.whatsapp.com/send?phone=56947023420" target="_blank" className="text-sm sm:text-base hover:text-[#8c8cdc] text-white transition-colors">Contacto</a>
           </div>

@@ -8,7 +8,7 @@ export default function EbookSection() {
     <div className="py-8 sm:py-16 bg-gradient-to-b from-[#e9e9f7] to-white">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
-        Libros Electrónicos Destacados
+        Biblioteca Digital Destacados
         </h2>
         <div className="w-full mb-6">
           <div className="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>

@@ -12,7 +12,7 @@ export default function Ebooks() {
       <Navbar />
       <div className="container mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold text-[#8c8cdc] text-center mb-12">
-          Biblioteca de eBooks
+          Biblioteca digital
         </h1>
         <div className="space-y-8">
           {ebookDetails.map((ebook, index) => (
