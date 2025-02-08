@@ -1,4 +1,7 @@
-import image1 from "../assets/screen.jpg"
+import screen1 from "../assets/screen1.jpg"
+import screen2 from "../assets/screen2.jpg"
+import screen3 from "../assets/screen3.jpg"
+import screen4 from "../assets/screen4.jpg"
 export interface Testimonial {
     id: number;
     image: string;
@@ -8,17 +11,22 @@ export interface Testimonial {
   export const testimonials: Testimonial[] = [
     {
       id: 1,
-      image: image1,
+      image: screen1,
       platform: "WhatsApp"
     },
     {
       id: 2,
-      image: "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?auto=format&fit=crop&w=800&q=80",
-      platform: "Instagram"
+      image: screen2,
+      platform: "WhatsApp"
     },
     {
       id: 3,
-      image: "https://images.unsplash.com/photo-1611605698335-8b1569810432?auto=format&fit=crop&w=800&q=80",
+      image: screen3,
+      platform: "WhatsApp"
+    },
+    {
+      id: 4,
+      image: screen4,
       platform: "WhatsApp"
     }
   ];

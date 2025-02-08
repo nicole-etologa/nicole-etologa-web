@@ -16,6 +16,7 @@
     "@icons-pack/react-simple-icons": "^10.2.0",
     "@types/react-slick": "^0.23.13",
     "gh-pages": "^6.3.0",
+    "html-react-parser": "^5.2.2",
     "lucide-react": "^0.344.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
