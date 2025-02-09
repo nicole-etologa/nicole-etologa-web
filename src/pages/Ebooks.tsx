@@ -1,8 +1,8 @@
-import Navbar from '../components/Navbar';
+import Navbar from '../components/layouts/Navbar';
 import { Book, ShoppingCart } from 'lucide-react';
 import { ebooks } from '../data/ebooks';
-import PriceDisplay from '../components/PriceDisplay';
-import Footer from '../components/Footer';
+import PriceDisplay from '../components/common/PriceDisplay';
+import Footer from '../components/layouts/Footer';
 
 const ebookDetails = ebooks;
 

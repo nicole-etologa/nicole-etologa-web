@@ -1,7 +1,7 @@
-import Navbar from '../components/Navbar';
+import Navbar from '../components/layouts/Navbar';
 import { CalendarPlusIcon, GraduationCap } from 'lucide-react';
-import PriceDisplay from '../components/PriceDisplay';
-import Footer from '../components/Footer';
+import PriceDisplay from '../components/common/PriceDisplay';
+import Footer from '../components/layouts/Footer';
 import { mentorings } from '../data/mentorings';
 import parse from 'html-react-parser';
 

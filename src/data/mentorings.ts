@@ -39,8 +39,8 @@ export interface Mentoring {
         "Establecer rutinas diarias que promuevan la calma y la estabilidad emocional, mientras monitoreas los avances de tu gato mediante un calendario de registro y modificas las estrategias según sea necesario.",
         "Fortalecer el vínculo con tu gato a través de estrategias comprobadas."
       ],
-      originalPrice: "160",
-      price: "117",
+      originalPrice: "180",
+      price: "127",
       link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la Asesoría Premium."
     },
     {
@@ -66,8 +66,8 @@ export interface Mentoring {
         "Establecer rutinas diarias que promuevan la calma y la estabilidad emocional, mientras monitoreas los avances de tu gato mediante un calendario de registro y modificas las estrategias según sea necesario.",
         "Fortalecer el vínculo con tu gato a través de estrategias comprobadas."
       ],
-      originalPrice: "100",
-      price: "67",
+      originalPrice: "130",
+      price: "97",
       link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la Asesoría Dinámica."
     },
     {
@@ -86,8 +86,8 @@ export interface Mentoring {
         "Establecer rutinas diarias que promuevan la calma y la estabilidad emocional, mientras monitoreas los avances de tu gato.",
         "Fortalecer el vínculo con tu gato a través de estrategias comprobadas.",
       ],
-      originalPrice: "70",
-      price: "47",
+      originalPrice: "90",
+      price: "57",
       link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la Asesoría Express."
     }
   ];
