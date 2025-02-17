@@ -4,6 +4,11 @@ interface PriceDisplayProps {
 }
 
 export default function PriceDisplay({ originalPrice, currentPrice }: PriceDisplayProps) {
+  
+  if (!originalPrice || !currentPrice) {
+    return null; // Retorna nada si alguna de las condiciones se cumple
+  }
+
   const discount = Math.round(((parseFloat(originalPrice) - parseFloat(currentPrice)) / parseFloat(originalPrice)) * 100);
 
   return (
