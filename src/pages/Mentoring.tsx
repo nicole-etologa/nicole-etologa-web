@@ -77,7 +77,7 @@ export default function Mentorings() {
                             <div className="flex flex-wrap justify-center md:justify-end gap-2">
                                 <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-2 rounded-full flex items-center border border-[#e682b6]" onClick={() => window.open(mentoring.link, '_blank')}>
                                     <CalendarPlusIcon className="w-5 h-5 mr-2" />
-                                    Agendar esta Asesoría
+                                    Cotizar esta Asesoría
                                 </button>
                             </div>
 
