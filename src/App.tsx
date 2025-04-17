@@ -3,6 +3,7 @@ import Home from './pages/Home';
 import Ebooks from './pages/Ebooks';
 import EbookDetail from './pages/EbookDetail';
 import Mentoring from './pages/Mentoring';
+import Workshops from './pages/Workshop';
 
 function App() {
   return (
@@ -13,6 +14,8 @@ function App() {
         <Route path="/ebooks" element={<Ebooks />} />
         <Route path="/asesorias" element={<Mentoring />} />
         <Route path="/ebooks/:id" element={<EbookDetail />} />
+        <Route path="/talleres" element={<Workshops />} />
+        
       </Routes>
     </Router>
   );

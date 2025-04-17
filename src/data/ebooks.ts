@@ -24,7 +24,7 @@ export interface Ebook {
       ],
       originalPrice: "32",
       price: "9",
-      link: "https://bit.ly/3Cj8Www"
+      link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Lenguaje no verbal en gatos."
     },
     {
       id: "demanda-atencion",
@@ -43,6 +43,6 @@ export interface Ebook {
       ],
       originalPrice: "20",
       price: "7",
-      link: "https://bit.ly/3PJdv6l"
+      link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Demanda de atención."
     }
   ];
