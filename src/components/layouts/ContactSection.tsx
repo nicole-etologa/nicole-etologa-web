@@ -19,7 +19,7 @@ export default function Contact() {
                 <div className="flex flex-wrap justify-center gap-4">
                     <button className="bg-[#73c86a] text-white text-base sm:text-xl hover:bg-[#73c86a]/80 px-5 sm:px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform" onClick={() => window.open('https://api.whatsapp.com/send?phone=56947023420', '_blank')}>
                         <SiWhatsapp className="mr-2" />
-                        Hablemos por Whatsapp
+                        Hablemos +56 9 4702 3420
                     </button>
                 </div>
             </div>
