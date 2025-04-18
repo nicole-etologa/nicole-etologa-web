@@ -60,6 +60,7 @@ export default function EbookDetail() {
                   currentPrice={ebook.price}
                 />
               </div>
+              <p className="text-lg font-semibold text-[#e682b6]">📃 Compra tu guía directamente por WhatsApp +56 9 47023420</p>
               <div className="flex flex-wrap justify-center md:justify-end gap-2">
                 <button className="bg-[#8c8cdc] text-white px-6 py-2 rounded-full hover:bg-[#7a7ac8] flex items-center" onClick={() => window.open(ebook.link, '_blank')}>
                   <ShoppingCart className="w-5 h-5 mr-2" />
