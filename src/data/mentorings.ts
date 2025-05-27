@@ -18,26 +18,29 @@ export interface Mentoring {
       description: "30 días de acompañamiento",
       fullDescription: "",
       included: [
-        "<strong>Evaluación previa: </strong> Análisis detallado del comportamiento de tu gato mediante un formulario digital antes de iniciar el acompañamiento.",
-        "<strong>Tres sesiones en vivo vía Zoom (con acceso de por vida a las grabaciones): </strong> <ul className='pl-5 mt-1 space-y-1'> <li><strong>Sesión 1 (2 hr 30 min): </strong> Diagnóstico, estrategias personalizadas, tareas prácticas y calendario de rutinas.</li> <li><strong>Sesión 2 (1 hr):</strong> Evaluación de avances y ajustes al plan de acción. </li><li> <strong>Sesión 3 (1 hr):</strong> Revisión final y ajustes finales en las estrategias.</li></ul>",
-        "<strong>Plan de acción personalizado: </strong>Guía en PDF con tratamiento paso a paso para corregir problemas específicos.",
-        "<strong>Resolución de dudas ilimitada: </strong>Hasta entrega del plan de acción final. Respuesta vía WhatsApp (Lun-Vie, 09:00-17:00 hrs, Hora Chile)",
-        "<strong>Revisión de material audiovisual: </strong> Para ajustar tareas y estrategias según avances.",
-        "<strong>Recomendaciones</strong> para rutina diaria y gatificación del hogar."
+        "<strong>🔍 Diagnóstico inicial: </strong> Te entregaré material para que conozcas mejor a tu michi y te solicitaré información (como un formulario y algunos videos). Todo esto me ayudará a entender bien el caso y preparar las primeras recomendaciones en el feedback inicial.",
+        "<strong>📋 Feedback inicial personalizado: </strong> Te entregaré un informe con estrategias iniciales y documentos de apoyo diseñados especialmente para los problemas más urgentes a trabajar.",
+        "<strong>📆 Acompañamiento formal (30 días): </strong>Una vez implementadas las primeras tareas y al observar avances, agendamos la primera sesión en vivo y comienza oficialmente el seguimiento: <ul className='pl-5 mt-1 space-y-1'> <li><strong>🧠Sesión 1 (2 hr 30 min): </strong> Diagnóstico, revisión del entorno, revisión de estrategias en planilla de monitoreo y calendario de rutinas.</li> <li><strong>🔁 Sesión 2 (1 hr):</strong> Evaluación de avances y ajustes de estrategias y tareas. </li><li> <strong>🧩 Sesión 3 (1 hr): </strong> Revisión final, cierre del proceso y adaptación de estrategias a largo plazo.</li><li><strong>*Tendrás acceso de por vida a grabación de las sesiones por Zoom</strong></li></ul> ",
+        "<strong>📁 Planes de acción por conducta: </strong>Tendrás acceso exclusivo a una carpeta con todos los planes de acción con tratamientos y tareas prácticas paso a paso para abordar comportamientos inadecuados. ¡Úsalos ahora o cuando los necesites en el futuro!",
+        "<strong>💬 Dudas ilimitadas por WhatsApp: </strong>Te acompaño durante todo el proceso, de Lun-Vie entre 09:00-18:00 hrs (Hora de Chile), respondiendo tus preguntas con cariño y estrategia.",
+        "<strong>🎥 Revisión de videos: </strong> Podrás enviarme videos del comportamiento de tu gato para afinar y ajustar las tareas.",
+        "<strong>🏠 Rutinas y gatificación:</strong> Te ayudaré a crear un entorno estimulante, seguro y calmado para tu michi."
       ],
       bonuses: [
-        "Evolución Felina",
-        "Habilidades Cazadoras de los Felinos",
-        "Lenguaje Felino",
-        "Método Lucky: Mis 6 principios para resolver problemas comunes y fortalecer el vínculo con tu gato."
+        "Guía con juego dirigido, estimulación mental y alimentación por porciones.",
+        "Guía con 5 pilares para una familia gatuna feliz.",
+        "Actividades caseras para estimular su mente",
+        "🧬 Evolución felina",
+        "🐾 Habilidades cazadoras",
+        "🗣 Lenguaje felino",
+        "💛 Método Lucky: mis 6 principios para resolver conflictos y fortalecer el vínculo."
       ],
       learned: [
-        "Identificar causas del comportamiento inadecuado",
-        "Interpretar el lenguaje corporal y vocal de tu gato para entender mejor sus necesidades.",
-        "Abordar y resolver problemas con estrategias prácticas, sostenibles y personalizadas, enfocándose en implementar cambios efectivos en el hogar que además prevengan futuros conflictos.",
-        "Diseñar un entorno enriquecido que satisfaga sus instintos naturales, como la caza, el descanso y el juego.",
-        "Establecer rutinas diarias que promuevan la calma y la estabilidad emocional, mientras monitoreas los avances de tu gato mediante un calendario de registro y modificas las estrategias según sea necesario.",
-        "Fortalecer el vínculo con tu gato a través de estrategias comprobadas."
+        "✅ Entender qué le pasa a tu gato y por qué se comporta inadecuadamente.",
+        "✅ Aprenderás a interpretar el lenguaje corporal y vocal para entender mejor sus necesidades.",
+        "✅ Resolver problemas de forma práctica y sostenible.",
+        "✅ Enriquecer su vida con juegos, rutinas y desafíos.",
+        "✅ Fortalecer su confianza y el vínculo contigo."
       ],
       originalPrice: "",
       price: "",
@@ -49,22 +52,25 @@ export interface Mentoring {
       description: "",
       fullDescription: "",
       included: [
-        "<strong>Evaluación previa: </strong> Análisis detallado del comportamiento de tu gato mediante un formulario digital antes de iniciar el acompañamiento.",
-        "<strong>Una sesión en vivo de 2hr 30min vía Zoom (con acceso de por vida a las grabación): </strong> </br> <strong className='pl-5 mt-1 space-y-1'>En la sesión veremos: </strong> <ul className='pl-10 mt-1 space-y-1'> <li>Diagnóstico, estrategias personalizadas, tareas prácticas y calendario de rutinas.</li> <li> Evaluación de avances y ajustes al plan de acción. </li><li> Revisión final y ajustes finales en las estrategias.</li></ul>",
-        "<strong>Plan de acción personalizado: </strong>Guía en PDF con el paso a paso para corregir los comportamientos inadecuados de tu gato.",
-        "<strong>Resolución de dudas ilimitada: </strong>Hasta entrega del plan de acción final. Respuesta vía WhatsApp (Lun-Vie, 09:00-17:00 hrs, Hora Chile)",
-        "<strong>Revisión de material audiovisual: </strong> Ajustes personalizados según los avances.",
-        "<strong>Recomendaciones</strong> para rutina diaria y gatificación del hogar."
+        "<strong>🔍 Diagnóstico inicial: </strong> Te entregaré material para que conozcas mejor a tu michi y te solicitaré información clave (formulario, videos, etc.). Con eso prepararé un primer análisis del caso.",
+        "<strong>📋 Feedback inicial personalizado: </strong> Recibirás un informe con estrategias prácticas y documentos de apoyo diseñados especialmente para abordar los comportamientos más urgentes.",
+        "<strong>📆 Sesión en vivo: </strong> Una vez implementadas las primeras tareas y al observar avances, coordinaremos la sesión en vivo. </br> <strong className='pl-5 mt-1 space-y-1'>🧠Sesión 1 (2 hr 30 min): </strong> Diagnóstico, estrategias personalizadas, tareas prácticas y calendario de rutinas. <br> <strong>*Tendrás acceso de por vida a grabación de las sesiones por Zoom</strong> ",
+        "<strong>📁 Planes de acción por conducta: </strong>Accederás a guías detalladas con tratamientos y tareas prácticas, diseñadas paso a paso para abordar los comportamientos específicos que presenten tus michis, de forma sencilla y efectiva.",
+        "<strong>💬 Dudas ilimitadas por WhatsApp:</strong>Te acompaño durante todo el proceso, de Lun-Vie entre 09:00-18:00 hrs (Hora de Chile), respondiendo tus preguntas con cariño y estrategia.",
+        "<strong>🎥 Revisión de videos: </strong> Podrás enviarme videos del comportamiento de tu gato para afinar y ajustar las tareas.",
+        "<strong>🏠 Rutinas y gatificación:</strong> Te ayudaré a crear un entorno estimulante, seguro y calmado para tu michi."
       ],
       bonuses: [
-        "<strong>Método Lucky:</strong> Los 6 principios clave para resolver problemas de comportamiento y fortalecer el vínculo con tu gato, basados en teoría científica y experiencia personal."
+        "Guía con juego dirigido, estimulación mental y alimentación por porciones.",
+        "Guía con 5 pilares para una familia gatuna feliz",
+        "Actividades caseras para estimular su mente",
+        "💛 Método Lucky: mis 6 principios para resolver conflictos y fortalecer el vínculo."
       ],
       learned: [
-        "Identificar causas del comportamiento inadecuado",
-        "Interpretar el lenguaje corporal y vocal de tu gato para entender mejor sus necesidades.",
-        "Implementar cambios inmediatos y prácticos en el hogar para mejorar su bienestar.",
-        "Establecer rutinas diarias que promuevan la calma y la estabilidad emocional, mientras monitoreas los avances de tu gato mediante un calendario de registro y modificas las estrategias según sea necesario.",
-        "Fortalecer el vínculo con tu gato a través de estrategias comprobadas."
+        "✅ Entender qué le pasa a tu gato y por qué se comporta inadecuadamente",
+        "✅ Aprenderás a interpretar el lenguaje corporal y vocal para entender mejor sus necesidades.",
+        "✅ Enriquecer su vida con juegos, rutinas y desafíos.",
+        "✅ Fortalecer su confianza y el vínculo contigo."
       ],
       originalPrice: "",
       price: "",
@@ -73,18 +79,18 @@ export interface Mentoring {
     {
       id: "plan-express",
       title: "Plan Express",
-      description: "Este servicio está diseñado para ofrecer soluciones rápidas, prácticas y efectivas, adaptadas a las necesidades específicas de tu gato.",
+      description: "Este plan es perfecto si necesitas orientación directa y soluciones rápidas, sin perder tiempo ni dar vueltas. ¡Ideal para poner manos a la obra desde el día uno! 🐾💛",
       fullDescription: "",
       included: [
-        "<strong>Evaluación previa: </strong> Análisis detallado del comportamiento de tu gato mediante un formulario digital antes de agendar la sesión en vivo.",
-        "<strong>Una sesión en vivo de 2hr vía Zoom (con acceso de por vida a las grabación): </strong> </br> <strong className='pl-5 mt-1 space-y-1'>En la sesión veremos: </strong> <ul className='pl-10 mt-1 space-y-1'> <li>Tareas prácticas con objetivos SMART para implementar ajustes en el entorno</li> <li>Calendario de rutinas y registro de comportamiento.</li><li>Resolución de dudas y recomendaciones específicas.</li></ul>"
+        "<strong>🔍 Evaluación previa: </strong> Antes de la sesión, te pediré que completes un formulario para conocer mejor a tu michi, más material audiovisual para entender qué está ocurriendo en casa.",
+        "<strong>Una sesión en vivo de 90 minutos vía Zoom </strong> </br> <strong className='pl-5 mt-1 space-y-1'>Una sesión intensa y súper práctica donde abordaremos: </strong> <ul className='pl-10 mt-1 space-y-1'> <li>🔎 Diagnóstico del comportamiento actual</li> <li>🏠 Revisión del entorno y qué ajustes hacer</li><li>🎯 Estrategias claras para los problemas más urgentes</li><li>💬 Resolución de dudas en el momento</li><li>✨ ¡Y te llevas la grabación para siempre!</li></ul>"
       ],
       bonuses: [
       ],
       learned: [
-        "Realizar ajustes inmediatos y efectivos en el entorno del gato para mejorar su bienestar, aplicando tareas prácticas que aborden problemas específicos de manera eficiente",
-        "Establecer rutinas diarias que promuevan la calma y la estabilidad emocional, mientras monitoreas los avances de tu gato.",
-        "Fortalecer el vínculo con tu gato a través de estrategias comprobadas.",
+        "✅ Cómo hacer cambios inmediatos en el entorno para mejorar el bienestar de tu gato.",
+        "✅ Qué tareas prácticas aplicar para resolver los problemas específicos que te preocupan.",
+        "✅ Cómo establecer una rutina que traiga más calma y equilibrio al hogar.",
       ],
       originalPrice: "",
       price: "",

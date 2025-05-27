@@ -1,50 +1,108 @@
-# React + TypeScript + Vite
+# Nicole Etóloga Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es una aplicación web desarrollada con **React**, **TypeScript** y **Vite**. Está diseñada para mostrar información sobre talleres, ebooks y servicios de asesoría relacionados con la etología.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologías utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **React**: Biblioteca para construir interfaces de usuario.
+- **TypeScript**: Superset de JavaScript que añade tipado estático.
+- **Vite**: Herramienta de desarrollo rápida para proyectos modernos.
+- **React Router**: Manejo de rutas en la aplicación.
+- **Tailwind CSS**: Framework de CSS para estilos rápidos y personalizados.
 
-## Expanding the ESLint configuration
+## 📂 Estructura del proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```plaintext
+src/
+├── components/       # Componentes reutilizables
+├── pages/            # Páginas principales de la aplicación
+├── assets/           # Imágenes, íconos y otros recursos estáticos
+├── styles/           # Archivos de estilos globales
+├── App.tsx           # Componente principal de la aplicación
+└── main.tsx          # Punto de entrada de la aplicación
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+## ⚙️ Instalación y configuración
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+1. **Clonar el repositorio:**
+
+   ```bash
+   git clone https://github.com/tu-usuario/nicole-etologa-web.git
+   cd nicole-etologa-web
+   ```
+
+2. **Instalar dependencias:**
+
+   Asegúrate de tener [Node.js](https://nodejs.org/) instalado. Luego, ejecuta:
+
+   ```bash
+   npm install
+   ```
+
+3. **Iniciar el servidor de desarrollo:**
+
+   ```bash
+   npm run dev
+   ```
+
+   La aplicación estará disponible en `http://localhost:5173`.
+
+4. **Construir para producción:**
+
+   ```bash
+   npm run build
+   ```
+
+   Los archivos generados estarán en la carpeta `dist/`.
+
+## 🌐 Despliegue
+
+El proyecto está configurado para ser desplegado en **GitHub Pages**. Si deseas desplegarlo, asegúrate de configurar correctamente el archivo `CNAME` y los registros DNS en tu proveedor de dominio.
+
+Para desplegar, ejecuta:
+
+```bash
+npm run deploy
 ```
+
+## 🛠️ Funcionalidades principales
+
+- **Talleres:** Información detallada sobre talleres, incluyendo fechas, duración y modalidad.
+- **Ebooks:** Catálogo de ebooks disponibles para compra.
+- **Asesorías:** Servicios personalizados de mentoría y asesoría.
+- **WhatsApp Integration:** Enlaces directos para solicitar acceso a talleres y servicios.
+
+## 📖 Scripts disponibles
+
+- `npm run dev`: Inicia el servidor de desarrollo.
+- `npm run build`: Construye la aplicación para producción.
+- `npm run preview`: Previsualiza la aplicación construida.
+- `npm run deploy`: Despliega la aplicación en GitHub Pages.
+
+## 🖼️ Capturas de pantalla
+
+_Añade aquí capturas de pantalla de tu aplicación para mostrar su diseño y funcionalidad._
+
+## 🤝 Contribuciones
+
+¡Las contribuciones son bienvenidas! Si deseas colaborar, sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama para tu funcionalidad (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz un commit (`git commit -m 'Añadir nueva funcionalidad'`).
+4. Haz un push a tu rama (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
+
+## 📄 Licencia
+
+Este proyecto está bajo la licencia **MIT**. Consulta el archivo `LICENSE` para más detalles.
+
+## ✨ Autor
+
+Desarrollado por **Nicole Etóloga**. Si tienes preguntas o sugerencias, no dudes en contactarme.
+
+---
+
+¡Gracias por visitar este proyecto! 😊

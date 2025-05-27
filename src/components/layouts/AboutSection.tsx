@@ -10,7 +10,8 @@ export default function About() {
                     <div className="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>
                 </div>
                 <div className="flex flex-col gap-2 text-left text-gray-600 mb-4 mx-auto">
-                <p><strong>Mi nombre es Nicole Saavedra, etóloga felina e ingeniera civil.</strong></p>
+                <p><strong>Soy Nicole Saavedra, Etóloga Felina y tu guía en el mundo
+                felino.</strong></p>
                 <p>Desde niña, siempre tuve una conexión especial con los gatos, y eso me llevó a estudiar su comportamiento y convertir esa pasión en lo que hago hoy.</p>
                 <p>Además desarrollé el Método Lucky inspirado en mi propio gato Lucky, que ha sido mi gran maestro. Este método no solo viene de mi experiencia con él, sino que también está respaldado por estudios y el conocimiento de expertos y referentes.</p>
                 <p>Este método ya ha sido implementado y probado con mucho éxito en varias familias como la tuya, que quieren mejorar los malos hábitos de sus gatos y además mejorar el vinculo y relación con ellos.</p>

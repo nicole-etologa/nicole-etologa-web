@@ -36,7 +36,7 @@ export default function Mentorings() {
                                 </div>
                             </div>
                             <div className="mb-4">
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">Servicios Incluidos:</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">🐾 ¿Qué incluye?</h3>
                                 <ul className="grid grid-cols-1 gap-2">
                                     {mentoring.included.map((include, idx) => (
                                         <li key={idx} className="flex items-start text-gray-600">
@@ -47,7 +47,7 @@ export default function Mentorings() {
                                 </ul>
                             </div>
                             <div className={`mb-4 ${mentoring.bonuses.length === 0 ? "hidden" : ""}`}>
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">Bonos GRATIS (valorados en $100 USD):</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">🎁 BONOS INCLUIDOS (valorados en $150.000 CLP)</h3>
                                 <ul className={`grid grid-cols-1 ${mentoring.bonuses.length > 1 ? "md:grid-cols-2" : ""} gap-2`}>
                                     {mentoring.bonuses.map((bonus, idx) => (
                                         <li key={idx} className="flex items-start text-gray-600">
@@ -58,7 +58,7 @@ export default function Mentorings() {
                                 </ul>
                             </div>
                             <div className="mb-6">
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">Lo que aprenderás:</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">✨ ¿Qué aprenderás y lograrás?</h3>
                                 <ol className="grid grid-cols-1 gap-2">
                                     {mentoring.learned.map((learn, idx) => (
                                         <li key={idx} className="flex items-start text-gray-600">
