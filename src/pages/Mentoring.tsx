@@ -47,7 +47,7 @@ export default function Mentorings() {
                                 </ul>
                             </div>
                             <div className={`mb-4 ${mentoring.bonuses.length === 0 ? "hidden" : ""}`}>
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">🎁 BONOS INCLUIDOS (valorados en $150.000 CLP)</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">🎁 BONOS INCLUIDOS (valorados en $150 USD)</h3>
                                 <ul className={`grid grid-cols-1 ${mentoring.bonuses.length > 1 ? "md:grid-cols-2" : ""} gap-2`}>
                                     {mentoring.bonuses.map((bonus, idx) => (
                                         <li key={idx} className="flex items-start text-gray-600">
