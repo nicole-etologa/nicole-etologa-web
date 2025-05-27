@@ -57,15 +57,6 @@ Sigue estos pasos para ejecutar el proyecto en tu entorno local:
 
    Los archivos generados estarán en la carpeta `dist/`.
 
-## 🌐 Despliegue
-
-El proyecto está configurado para ser desplegado en **GitHub Pages**. Si deseas desplegarlo, asegúrate de configurar correctamente el archivo `CNAME` y los registros DNS en tu proveedor de dominio.
-
-Para desplegar, ejecuta:
-
-```bash
-npm run deploy
-```
 
 ## 🛠️ Funcionalidades principales
 
@@ -81,9 +72,6 @@ npm run deploy
 - `npm run preview`: Previsualiza la aplicación construida.
 - `npm run deploy`: Despliega la aplicación en GitHub Pages.
 
-## 🖼️ Capturas de pantalla
-
-_Añade aquí capturas de pantalla de tu aplicación para mostrar su diseño y funcionalidad._
 
 ## 🤝 Contribuciones
 
