@@ -1,6 +1,6 @@
 import screen1 from "../assets/screen1.jpg"
 import screen2 from "../assets/screen2.jpg"
-import screen3 from "../assets/screen3.jpg"
+
 import screen4 from "../assets/screen4.jpg"
 import screen5 from "../assets/screen5.jpg"
 import screen6 from "../assets/screen6.jpg"
@@ -32,11 +32,6 @@ export interface Testimonial {
     {
       id: 4,
       image: screen4,
-      platform: "WhatsApp"
-    },
-    {
-      id: 5,
-      image: screen3,
       platform: "WhatsApp"
     },
     {
