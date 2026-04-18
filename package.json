@@ -14,7 +14,9 @@
   },
   "dependencies": {
     "@icons-pack/react-simple-icons": "^10.2.0",
+    "@tabler/icons-react": "^3.34.0",
     "@types/react-slick": "^0.23.13",
+    "framer-motion": "^12.23.6",
     "gh-pages": "^6.3.0",
     "html-react-parser": "^5.2.2",
     "lucide-react": "^0.344.0",

@@ -1,11 +1,12 @@
 import screen1 from "../assets/screen1.jpg"
 import screen2 from "../assets/screen2.jpg"
-
 import screen4 from "../assets/screen4.jpg"
 import screen5 from "../assets/screen5.jpg"
 import screen6 from "../assets/screen6.jpg"
 import screen7 from "../assets/screen7.jpg"
 import screen8 from "../assets/screen8.jpg"
+import screen9 from "../assets/screen9.jpg"
+import screen10 from "../assets/screen10.jpg"
 
 export interface Testimonial {
     id: number;
@@ -47,4 +48,14 @@ export interface Testimonial {
       image: screen8,
       platform: "WhatsApp"
     },
+    {
+      id: 9,
+      image: screen9,
+      platform: "WhatsApp"
+    },
+    {
+      id: 10,
+      image: screen10,
+      platform: "WhatsApp"
+    }
   ];
