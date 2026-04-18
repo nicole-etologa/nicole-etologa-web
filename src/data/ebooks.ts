@@ -22,8 +22,8 @@ export interface Ebook {
         "Sobreestimulación: Cómo detectar señales de incomodidad antes de que tu gato reaccione con un mordisco o arañazo.",
         "Comunicación social: El papel del olfato y las feromonas en la interacción entre gatos y con su entorno."
       ],
-      originalPrice: "32",
-      price: "9",
+      originalPrice: "42",
+      price: "17",
       link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Lenguaje no verbal en gatos."
     },
     {
@@ -41,8 +41,8 @@ export interface Ebook {
         "Corregir comportamientos inadecuados con técnicas efectivas.",
         "Reducir el estrés y fortalecer el vinculo con el gato."
       ],
-      originalPrice: "20",
-      price: "7",
+      originalPrice: "42",
+      price: "17",
       link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Demanda de atención."
     }
   ];
