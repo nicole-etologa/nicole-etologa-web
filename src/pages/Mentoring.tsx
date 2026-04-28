@@ -4,20 +4,30 @@ import PriceDisplay from '../components/common/PriceDisplay';
 import Footer from '../components/layouts/Footer';
 import { mentorings } from '../data/mentorings';
 import parse from 'html-react-parser';
+import Seo from '../components/seo/Seo';
+import { mentoringJsonLd } from '../components/seo/Mentoring.schema';
 
 const mentoringDetails = mentorings;
 
 export default function Mentorings() {
     return (
-        <div className="min-h-screen flex flex-col bg-[#e9e9f7]">
-            <Navbar />
-            <div className="container mx-auto px-4 py-12">
-                <h1 className="text-4xl font-bold text-[#8c8cdc] text-center mb-12">
-                    Asesorías Online
-                </h1>
-                <div className="space-y-8">
-                    {mentoringDetails.map((mentoring, index) => (
-                        <div key={index} className="bg-white rounded-lg shadow-lg p-5">
+        <>
+            <Seo
+                title="Asesorias de comportamiento felino online | Nicole Etologa"
+                description="Planes de asesoria felina personalizados para reducir estres, maullidos excesivos y conflictos entre gatos. Acompanamiento online para familias en LATAM."
+                path="/asesorias"
+                image="/cat.svg"
+                jsonLd={mentoringJsonLd}
+            />
+            <div className="min-h-screen flex flex-col bg-[#e9e9f7]">
+                <Navbar />
+                <div className="container mx-auto px-4 py-12">
+                    <h1 className="text-4xl font-bold text-[#8c8cdc] text-center mb-12">
+                        Asesorías Online
+                    </h1>
+                    <div className="space-y-8">
+                        {mentoringDetails.map((mentoring, index) => (
+                            <div key={index} className="bg-white rounded-lg shadow-lg p-5">
                             <div className="flex items-start gap-4">
                                 <div className="bg-[#e682b6] p-4 rounded-lg">
                                     <GraduationCap className="w-8 h-8 text-white" />
@@ -82,11 +92,12 @@ export default function Mentorings() {
                                 </button>
                             </div>
 
-                        </div>
-                    ))}
+                            </div>
+                        ))}
+                    </div>
                 </div>
+                <Footer />
             </div>
-            <Footer />
-        </div>
+        </>
     );
 }

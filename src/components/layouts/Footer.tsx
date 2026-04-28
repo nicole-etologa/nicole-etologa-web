@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="container mx-auto text-center">
         <div className="flex flex-col items-center md:items-center">
           <SocialIcons className="mb-4 text-white" />
-          <p className="text-sm">© 2025 Nicole Etologa. Todos los derechos reservados.</p>
+          <p className="text-sm">© 2026 Nicole Etologa. Todos los derechos reservados.</p>
         </div>
       </div>
     </footer>
