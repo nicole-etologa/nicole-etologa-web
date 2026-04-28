@@ -14,7 +14,7 @@ export default function Contact() {
                     ¿Tienes alguna duda o necesitas más información?
                 </p>
                 <div className="grid place-items-center max-w-[75%] md:max-w-[25%] mx-auto mb-6">
-                    <img className="rounded-lg" src={profile} alt="Productos Nicole Etologa" />
+                    <img className="rounded-lg" src={profile} alt="Nicole Saavedra, especialista en comportamiento felino" />
                 </div>
                 <div className="flex flex-wrap justify-center gap-4">
                     <button className="bg-[#73c86a] text-white text-base sm:text-xl hover:bg-[#73c86a]/80 px-5 sm:px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform" onClick={() => window.open('https://api.whatsapp.com/send?phone=56947023420', '_blank')}>

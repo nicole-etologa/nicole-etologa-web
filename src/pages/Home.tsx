@@ -7,8 +7,12 @@ import TestimonialsSection from '../components/layouts/TestimonialsSection';
 import Contact from '../components/layouts/ContactSection';
 import Benefits from '../components/layouts/BenefitsSection';
 import About from '../components/layouts/AboutSection';
+import FaqSection from '../components/layouts/FaqSection';
 import { useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
+import Seo from '../components/seo/Seo';
+import { homeJsonLd } from '../components/seo/Home.schema';
+
 
 export default function Home() {
   const location = useLocation();
@@ -27,16 +31,26 @@ export default function Home() {
   }, [location.hash]); // Se ejecuta cada vez que cambia el hash
   
   return (
-    <div className="min-h-screen flex flex-col">
-      <Navbar />
-      <Hero />
-      <Benefits/>
-      <Services />
-      <TestimonialsSection />
-      <EbookSection />
-      <About/>
-      <Contact/>
-      <Footer />
-    </div>
+    <>
+      <Seo
+        title="Etologa Felina en Chile y LATAM | Nicole Etologa"
+        description="Asesorias de comportamiento felino, talleres y guias para mejorar la convivencia con tu gato. Planes personalizados online para familias gatunas en LATAM."
+        path="/"
+        image="/cat.svg"
+        jsonLd={homeJsonLd}
+      />
+      <div className="min-h-screen flex flex-col">
+        <Navbar />
+        <Hero />
+        <Benefits />
+        <Services />
+        <TestimonialsSection />
+        <EbookSection />
+        <FaqSection />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
+    </>
   );
 }

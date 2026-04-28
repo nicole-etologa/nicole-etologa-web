@@ -33,7 +33,7 @@ export interface Mentoring {
         "🧬 Evolución felina",
         "🐾 Habilidades cazadoras",
         "🗣 Lenguaje felino",
-        "💛 Método Lucky: mis 6 principios para resolver conflictos y fortalecer el vínculo."
+        "💛 Método Lucky: mis 6 principios para resolver comportamiento inadecuado y fortalecer el vínculo."
       ],
       learned: [
         "✅ Entender qué le pasa a tu gato y por qué se comporta inadecuadamente.",
@@ -64,7 +64,7 @@ export interface Mentoring {
         "Guía con juego dirigido, estimulación mental y alimentación por porciones.",
         "Guía con 5 pilares para una familia gatuna feliz",
         "Actividades caseras para estimular su mente",
-        "💛 Método Lucky: mis 6 principios para resolver conflictos y fortalecer el vínculo."
+        "💛 Método Lucky: mis 6 principios para resolver comportamiento inadecuado y fortalecer el vínculo."
       ],
       learned: [
         "✅ Entender qué le pasa a tu gato y por qué se comporta inadecuadamente",
