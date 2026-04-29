@@ -33,7 +33,7 @@ export default function Home() {
   return (
     <>
       <Seo
-        title="Etologa Felina en Chile y LATAM | Nicole Etologa"
+        title="Educadora conductual felina en Chile y LATAM | Nicole Etologa"
         description="Asesorias de comportamiento felino, talleres y guias para mejorar la convivencia con tu gato. Planes personalizados online para familias gatunas en LATAM."
         path="/"
         image="/cat.svg"
