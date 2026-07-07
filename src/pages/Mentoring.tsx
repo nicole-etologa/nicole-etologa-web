@@ -13,7 +13,7 @@ export default function Mentorings() {
     return (
         <>
             <Seo
-                title="Asesorias de comportamiento felino online | Nicole Etologa"
+                title="Asesorias de comportamiento felino online | Nicole Saavedra"
                 description="Planes de asesoria felina personalizados para reducir estres, maullidos excesivos y conflictos entre gatos. Acompanamiento online para familias en LATAM."
                 path="/asesorias"
                 image="/cat.svg"

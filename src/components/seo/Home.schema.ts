@@ -6,7 +6,7 @@ export const homeJsonLd = {
     '@graph': [
         {
             '@type': 'Organization',
-            name: 'Nicole Etologa',
+            name: 'Nicole Saavedra',
             url: `${SITE_URL}/`,
             logo: withSiteUrl('/cat.svg'),
             sameAs: [
@@ -17,16 +17,16 @@ export const homeJsonLd = {
         {
             '@type': 'Person',
             name: 'Nicole Saavedra',
-            jobTitle: 'Etologa Felina',
+            jobTitle: 'Educadora Conductual Felina',
             url: `${SITE_URL}/`,
             worksFor: {
                 '@type': 'Organization',
-                name: 'Nicole Etologa',
+                name: 'Nicole Saavedra',
             },
         },
         {
             '@type': 'WebSite',
-            name: 'Nicole Etologa',
+            name: 'Nicole Saavedra',
             url: `${SITE_URL}/`,
             inLanguage: 'es',
         },

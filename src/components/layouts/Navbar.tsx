@@ -37,7 +37,7 @@ const Navbar = () => {
         >
           <Cat className="text-white" size={28} />
           <span className="text-xl font-bold text-white max-md:text-center">
-            Nicole Etóloga
+            Nicole Saavedra
           </span>
         </Link>
 

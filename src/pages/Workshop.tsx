@@ -13,7 +13,7 @@ export default function Workshops() {
     return (
         <>
             <Seo
-                title="Talleres de comportamiento felino | Nicole Etologa"
+                title="Talleres de comportamiento felino | Nicole Saavedra"
                 description="Talleres online para resolver conflictos entre gatos, reducir estres felino y mejorar la convivencia en casa con estrategias practicas."
                 path="/talleres"
                 image="/cat.svg"

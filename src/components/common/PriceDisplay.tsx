@@ -16,7 +16,7 @@ export default function PriceDisplay({ originalPrice, currentPrice }: PriceDispl
       <div>
         <span className="text-[#e682b6] font-bold text-xl sm:text-2xl">${currentPrice} USD
         </span>
-        <span className="text-gray-400 text-xs"> + impuestos</span>
+        <span className="text-gray-400 text-xs"></span>
       </div>
       <div>
         {originalPrice && (
