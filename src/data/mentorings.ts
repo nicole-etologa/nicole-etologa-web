@@ -15,12 +15,12 @@ export interface Mentoring {
     {
       id: "plan-premium",
       title: "Plan Premium",
-      description: "30 días de acompañamiento",
+      description: "60 días de acompañamiento",
       fullDescription: "",
       included: [
         "<strong>🔍 Diagnóstico inicial: </strong> Te entregaré material para que conozcas mejor a tu michi y te solicitaré información (como un formulario y algunos videos). Todo esto me ayudará a entender bien el caso y preparar las primeras recomendaciones en el feedback inicial.",
         "<strong>📋 Feedback inicial personalizado: </strong> Te entregaré un informe con estrategias iniciales y documentos de apoyo diseñados especialmente para los problemas más urgentes a trabajar.",
-        "<strong>📆 Acompañamiento formal (30 días): </strong>Una vez implementadas las primeras tareas y al observar avances, agendamos la primera sesión en vivo y comienza oficialmente el seguimiento: <ul className='pl-5 mt-1 space-y-1'> <li><strong>🧠Sesión 1 (2 hr 30 min): </strong> Diagnóstico, revisión del entorno, revisión de estrategias en planilla de monitoreo y calendario de rutinas.</li> <li><strong>🔁 Sesión 2 (1 hr):</strong> Evaluación de avances y ajustes de estrategias y tareas. </li><li> <strong>🧩 Sesión 3 (1 hr): </strong> Revisión final, cierre del proceso y adaptación de estrategias a largo plazo.</li><li><strong>*Tendrás acceso de por vida a grabación de las sesiones por Zoom</strong></li></ul> ",
+        "<strong>📆 Acompañamiento formal (60 días): </strong>Una vez implementadas las primeras tareas y al observar avances, agendamos la primera sesión en vivo y comienza oficialmente el seguimiento: <ul className='pl-5 mt-1 space-y-1'> <li><strong>🧠Sesión 1 (2 hr 30 min): </strong> Diagnóstico, revisión del entorno, revisión de estrategias en planilla de monitoreo y calendario de rutinas.</li> <li><strong>🔁 Sesión 2 (1 hr):</strong> Evaluación de avances y ajustes de estrategias y tareas. </li><li> <strong>🧩 Sesión 3 (1 hr): </strong> Revisión final, cierre del proceso y adaptación de estrategias a largo plazo.</li><li><strong>*Tendrás acceso de por vida a grabación de las sesiones por Zoom</strong></li></ul> ",
         "<strong>📁 Planes de acción por conducta: </strong>Tendrás acceso exclusivo a una carpeta con todos los planes de acción con tratamientos y tareas prácticas paso a paso para abordar comportamientos inadecuados. ¡Úsalos ahora o cuando los necesites en el futuro!",
         "<strong>💬 Dudas ilimitadas por WhatsApp: </strong>Te acompaño durante todo el proceso, de Lun-Vie entre 09:00-18:00 hrs (Hora de Chile), respondiendo tus preguntas con cariño y estrategia.",
         "<strong>🎥 Revisión de videos: </strong> Podrás enviarme videos del comportamiento de tu gato para afinar y ajustar las tareas.",
@@ -49,7 +49,7 @@ export interface Mentoring {
     {
       id: "plan-dinamico",
       title: "Plan Dinámico",
-      description: "",
+      description: "30 días de acompañamiento",
       fullDescription: "",
       included: [
         "<strong>🔍 Diagnóstico inicial: </strong> Te entregaré material para que conozcas mejor a tu michi y te solicitaré información clave (formulario, videos, etc.). Con eso prepararé un primer análisis del caso.",
@@ -83,7 +83,7 @@ export interface Mentoring {
       fullDescription: "",
       included: [
         "<strong>🔍 Evaluación previa: </strong> Antes de la sesión, te pediré que completes un formulario para conocer mejor a tu michi, más material audiovisual para entender qué está ocurriendo en casa.",
-        "<strong>Una sesión en vivo de 90 minutos vía Zoom </strong> </br> <strong className='pl-5 mt-1 space-y-1'>Una sesión intensa y súper práctica donde abordaremos: </strong> <ul className='pl-10 mt-1 space-y-1'> <li>🔎 Diagnóstico del comportamiento actual</li> <li>🏠 Revisión del entorno y qué ajustes hacer</li><li>🎯 Estrategias claras para los problemas más urgentes</li><li>💬 Resolución de dudas en el momento</li><li>✨ ¡Y te llevas la grabación para siempre!</li></ul>"
+        "<strong>Una sesión en vivo de 60 minutos vía Zoom </strong> </br> <strong className='pl-5 mt-1 space-y-1'>Una sesión intensa y súper práctica donde abordaremos: </strong> <ul className='pl-10 mt-1 space-y-1'> <li>🔎 Diagnóstico del comportamiento actual</li> <li>🏠 Revisión del entorno y qué ajustes hacer</li><li>🎯 Estrategias claras para los problemas más urgentes</li><li>💬 Resolución de dudas en el momento</li><li>✨ ¡Y te llevas la grabación para siempre!</li></ul>"
       ],
       bonuses: [
       ],

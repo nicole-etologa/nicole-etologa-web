@@ -10,7 +10,7 @@ export const ebookJsonLd = (ebook: Ebook) => ({
   image: withSiteUrl('/cat.svg'),
   brand: {
     '@type': 'Brand',
-    name: 'Nicole Etologa',
+    name: 'Nicole Saavedra',
   },
   offers: {
     '@type': 'Offer',

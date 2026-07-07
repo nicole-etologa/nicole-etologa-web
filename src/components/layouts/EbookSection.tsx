@@ -1,7 +1,9 @@
-import { Book } from 'lucide-react';
+import { Book, BookCopy } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { ebooks } from '../../data/ebooks';
 import PriceDisplay from '../common/PriceDisplay';
+
+const featuredEbooks = ebooks.slice(0, 6);
 
 export default function EbookSection() {
   return (
@@ -20,8 +22,11 @@ export default function EbookSection() {
         Explora nuestras guías digitales para aprender más sobre tu gato:
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {ebooks.map((ebook) => (
-            <div key={ebook.id} className="bg-white p-6 rounded-lg shadow-lg grid grid-rows items-center gap-4">
+          {featuredEbooks.map((ebook, index) => (
+            <div
+              key={ebook.id}
+              className={`bg-white p-6 rounded-lg shadow-lg grid grid-rows items-center gap-4 ${index >= 4 ? 'hidden md:grid' : ''}`}
+            >
               <div className='flex flex-row items-center gap-3'>
               <Book className="w-12 h-12 text-[#e682b6]" />
               <h3 className="text-xl font-semibold text-[#8c8cdc]">
@@ -46,8 +51,15 @@ export default function EbookSection() {
             </div>
           ))}
         </div>
+        <div className="flex flex-wrap justify-center gap-4 mt-10">
+          <Link to="/ebooks">
+            <button className="bg-[#e682b6] text-white text-base sm:text-xl hover:bg-[#e682b6]/80 border border-white px-5 sm:px-12 py-4 rounded-full flex items-center hover:transform hover:scale-105 transition-transform">
+              <BookCopy className="mr-2" />
+              Ver todos los ebooks
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );
 }
-

@@ -12,7 +12,7 @@ export default function Ebooks() {
   return (
     <>
       <Seo
-        title="Guias y ebooks de comportamiento felino | Nicole Etologa"
+        title="Guias y ebooks de comportamiento felino | Nicole Saavedra"
         description="Biblioteca digital con guias practicas para entender el lenguaje felino, reducir maullidos excesivos y mejorar la convivencia con tu gato."
         path="/ebooks"
         image="/cat.svg"
