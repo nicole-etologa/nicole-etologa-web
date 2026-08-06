@@ -2,7 +2,7 @@ import SocialIcons from "../common/SocialIcons";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#8c8cdc] text-white py-6 sm:py-8 bottom-0">
+    <footer className="bg-[#8c8cdc] text-white py-6 sm:py-8 bottom-0 dark:bg-[#494985]">
       <div className="container mx-auto text-center">
         <div className="flex flex-col items-center md:items-center">
           <SocialIcons className="mb-4 text-white" />
@@ -12,4 +12,3 @@ export default function Footer() {
     </footer>
   )
 }
-

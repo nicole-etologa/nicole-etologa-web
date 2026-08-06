@@ -39,7 +39,7 @@ export default function Home() {
         image="/cat.svg"
         jsonLd={homeJsonLd}
       />
-      <div className="min-h-screen flex flex-col">
+      <div className="min-h-screen flex flex-col bg-white dark:bg-[#15141d]">
         <Navbar />
         <Hero />
         <Benefits />

@@ -2,6 +2,23 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    :root {
+        color-scheme: light dark;
+        background-color: #ffffff;
+    }
+
+    body {
+        @apply min-h-screen bg-white text-gray-800 dark:bg-[#15141d] dark:text-gray-200;
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            background-color: #15141d;
+        }
+    }
+}
+
 .gradient {
     background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }

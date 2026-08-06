@@ -19,22 +19,22 @@ export default function Mentorings() {
                 image="/cat.svg"
                 jsonLd={mentoringJsonLd}
             />
-            <div className="min-h-screen flex flex-col bg-[#e9e9f7]">
+            <div className="min-h-screen flex flex-col bg-[#e9e9f7] dark:bg-[#15141d]">
                 <Navbar />
                 <div className="container mx-auto px-4 py-12">
-                    <h1 className="text-4xl font-bold text-[#8c8cdc] text-center mb-12">
+                    <h1 className="text-4xl font-bold text-[#8c8cdc] dark:text-[#b8b8f0] text-center mb-12">
                         Asesorías Online
                     </h1>
                     <div className="space-y-8">
                         {mentoringDetails.map((mentoring, index) => (
-                            <div key={index} className="bg-white rounded-lg shadow-lg p-5">
+                            <div key={index} className="bg-white dark:bg-[#211f2c] rounded-lg shadow-lg dark:shadow-black/25 p-5">
                             <div className="flex items-start gap-4">
                                 <div className="bg-[#e682b6] p-4 rounded-lg">
                                     <GraduationCap className="w-8 h-8 text-white" />
                                 </div>
                                 <div className="flex-1">
                                     <div className="flex justify-between items-start">
-                                        <h2 className="text-2xl font-bold text-[#8c8cdc] mb-2">
+                                        <h2 className="text-2xl font-bold text-[#8c8cdc] dark:text-[#b8b8f0] mb-2">
                                             {mentoring.title}
                                         </h2>
                                         {/* <div className="flex items-center">
@@ -42,14 +42,14 @@ export default function Mentorings() {
                                         <span className="ml-1 text-gray-600">{ebook.rating}</span>
                                         </div> */}
                                     </div>
-                                    <p className="text-gray-600 mb-4">{mentoring.description}</p>
+                                    <p className="text-gray-600 dark:text-gray-300 mb-4">{mentoring.description}</p>
                                 </div>
                             </div>
                             <div className="mb-4">
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">🐾 ¿Qué incluye?</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">🐾 ¿Qué incluye?</h3>
                                 <ul className="grid grid-cols-1 gap-2">
                                     {mentoring.included.map((include, idx) => (
-                                        <li key={idx} className="flex items-start text-gray-600">
+                                        <li key={idx} className="flex items-start text-gray-600 dark:text-gray-300">
                                             <div className="w-2 h-2 bg-[#e682b6] rounded-full mt-2 mr-2 flex-shrink-0"></div>
                                             <p className="flex-grow">{parse(include)}</p>
                                         </li>
@@ -57,10 +57,10 @@ export default function Mentorings() {
                                 </ul>
                             </div>
                             <div className={`mb-4 ${mentoring.bonuses.length === 0 ? "hidden" : ""}`}>
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">🎁 BONOS INCLUIDOS (valorados en $150 USD)</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">🎁 BONOS INCLUIDOS (valorados en $150 USD)</h3>
                                 <ul className={`grid grid-cols-1 ${mentoring.bonuses.length > 1 ? "md:grid-cols-2" : ""} gap-2`}>
                                     {mentoring.bonuses.map((bonus, idx) => (
-                                        <li key={idx} className="flex items-start text-gray-600">
+                                        <li key={idx} className="flex items-start text-gray-600 dark:text-gray-300">
                                             <div className="w-2 h-2 bg-[#e682b6] rounded-full mt-2 mr-2 flex-shrink-0"></div>
                                             <p className="flex-grow">{parse(bonus)}</p>
                                         </li>
@@ -68,10 +68,10 @@ export default function Mentorings() {
                                 </ul>
                             </div>
                             <div className="mb-6">
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] my-2">✨ ¿Qué aprenderás y lograrás?</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">✨ ¿Qué aprenderás y lograrás?</h3>
                                 <ol className="grid grid-cols-1 gap-2">
                                     {mentoring.learned.map((learn, idx) => (
-                                        <li key={idx} className="flex items-start text-gray-600">
+                                        <li key={idx} className="flex items-start text-gray-600 dark:text-gray-300">
                                             <div className="w-2 h-2 bg-[#e682b6] rounded-full mt-2 mr-2 flex-shrink-0"></div>
                                             <p className="flex-grow">{parse(learn)}</p>
                                         </li>
@@ -84,9 +84,9 @@ export default function Mentorings() {
                                     currentPrice={mentoring.price}
                                 />
                             </div>
-                            <p className="text-lg font-semibold text-[#e682b6]">🗓️ Cotiza tu asesoría directamente por WhatsApp +56 9 47023420</p>
+                            <p className="text-lg font-semibold text-[#c24f8b] dark:text-[#f09ac7]">🗓️ Cotiza tu asesoría directamente por WhatsApp +56 9 47023420</p>
                             <div className="flex flex-wrap justify-center md:justify-end gap-2">
-                                <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-2 rounded-full flex items-center border border-[#e682b6]" onClick={() => window.open(mentoring.link, '_blank')}>
+                                <button className="bg-white text-[#c24f8b] hover:bg-gray-100 dark:bg-[#211f2c] dark:text-[#f09ac7] dark:hover:bg-[#2b2838] px-6 py-2 rounded-full flex items-center border border-[#e682b6] transition-colors" onClick={() => window.open(mentoring.link, '_blank')}>
                                     <CalendarPlusIcon className="w-5 h-5 mr-2" />
                                     Cotizar esta Asesoría
                                 </button>
