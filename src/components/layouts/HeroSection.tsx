@@ -24,7 +24,7 @@ export default function Hero() {
             </button>
             </Link>
             <Link to="/asesorias">
-            <button className="bg-white text-[#e682b6] hover:bg-gray-100 px-6 py-3 rounded-full flex items-center text-base">
+             <button className="bg-white text-[#c24f8b] hover:bg-gray-100 dark:bg-[#211f2c] dark:text-[#f09ac7] dark:hover:bg-[#2b2838] px-6 py-3 rounded-full flex items-center text-base transition-colors">
               <CalendarHeartIcon className="mr-2" />
               Quiero una asesoría
             </button>

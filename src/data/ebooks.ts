@@ -24,7 +24,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Lenguaje no verbal en gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a71116a1a2e5f7a9e55c73e%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a71116a1a2e5f7a9e55c73e"
   },
   {
     id: "estres-veterinario-domicilio",
@@ -42,7 +42,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Estrés al veterinario a domicilio."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a71169f552752ec285673cc%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a71169f552752ec285673cc"
   },
   {
     id: "agresion-entre-gatos",
@@ -61,7 +61,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Agresión entre gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a6e9abb883ad6894a75e1b4%26tab%3Dcontent&sourceInfoType=folder&sourceInfoOrigin=6a6e9abb883ad6894a75e1b4"
   },
   {
     id: "metodo-tratar-agresion-ocasional",
@@ -80,7 +80,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Método para tratar agresión ocasional."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a7118af552752ec2856e88e%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a7118af552752ec2856e88e"
   },
   {
     id: "agresion-miedo-personas",
@@ -98,7 +98,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Agresión por miedo a personas."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a72649f40bcfc5125c32c58%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a72649f40bcfc5125c32c58"
   },
   {
     id: "ansiedad-alimenticia",
@@ -117,7 +117,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Ansiedad alimenticia."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a72661426b8f4f6d425e5f3%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a72661426b8f4f6d425e5f3"
   },
   {
     id: "estres-post-patologia-medica-gatos",
@@ -135,7 +135,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Estrés post patología médica en gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a726caf26b8f4f6d42717b4%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a726caf26b8f4f6d42717b4"
   },
   {
     id: "fugas-gatos",
@@ -154,7 +154,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Fugas en gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a72709926b8f4f6d427de9b%26tab%3Dcontent&sourceInfoType=folder&sourceInfoOrigin=6a72709926b8f4f6d427de9b"
   },
   {
     id: "pica-gatos",
@@ -173,7 +173,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Pica en gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a727fa326b8f4f6d42a9631%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a727fa326b8f4f6d42a9631"
   },
   {
     id: "agresion-juego-personas",
@@ -192,7 +192,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Agresión por juego a personas."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a72822f1cd7d5a907da4aa4%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a72822f1cd7d5a907da4aa4"
   },
   {
     id: "agresion-tolerancia-personas",
@@ -211,7 +211,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Agresión por tolerancia a personas."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a7284e7aa7924882a834503%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a7284e7aa7924882a834503"
   },
   {
     id: "agresion-redirigida",
@@ -230,7 +230,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Agresión redirigida."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a73d6e730ff33cba76f34a8%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a73d6e730ff33cba76f34a8"
   },
   {
     id: "demanda-atencion-gatos",
@@ -249,7 +249,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Demanda de atención."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a73d83430ff33cba76f72a8%26tab%3Dabout&sourceInfoType=folder&sourceInfoOrigin=6a73d83430ff33cba76f72a8"
   },
   {
     id: "eliminacion-inadecuada-gatos",
@@ -268,7 +268,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Eliminación inadecuada en gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a73d942d562a4c6f4680414%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a73d942d562a4c6f4680414"
   },
   {
     id: "estres-post-duelo-gatos",
@@ -287,7 +287,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Estrés post duelo en gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a73eda7140713da5f2a3fde%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a73eda7140713da5f2a3fde"
   },
   {
     id: "estres-transporte-traslado-cambio-entorno",
@@ -306,7 +306,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Estrés por transporte, traslado y cambio de entorno."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a73eec8140713da5f2a6d93%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a73eec8140713da5f2a6d93"
   },
   {
     id: "miedo-gatos",
@@ -325,7 +325,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Miedo en gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a73f039140713da5f2aa997%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a73f039140713da5f2aa997"
   },
   {
     id: "rascado-indebido",
@@ -344,7 +344,7 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Rascado indebido."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a73f1ce140713da5f2ade6a%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a73f1ce140713da5f2ade6a"
   },
   {
     id: "protocolo-reintroduccion-entre-gatos",
@@ -363,6 +363,6 @@ export const ebooks: Ebook[] = [
     ],
     originalPrice: "42",
     price: "17",
-    link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la guía de Protocolo de reintroducción entre gatos."
+    link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fdigital-files%2Fmanage%3Fid%3D6a73f3d81d285fe173439d6a%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a73f3d81d285fe173439d6a"
   }
 ];

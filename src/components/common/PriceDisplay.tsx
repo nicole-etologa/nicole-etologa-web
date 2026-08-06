@@ -14,13 +14,13 @@ export default function PriceDisplay({ originalPrice, currentPrice }: PriceDispl
   return (
     <div className="flex flex-col sm:flex-row items-start sm:items-end justify-start gap-1 sm:gap-4">
       <div>
-        <span className="text-[#e682b6] font-bold text-xl sm:text-2xl">${currentPrice} USD
+        <span className="text-[#c24f8b] dark:text-[#f09ac7] font-bold text-xl sm:text-2xl">${currentPrice} USD
         </span>
         <span className="text-gray-400 text-xs"></span>
       </div>
       <div>
         {originalPrice && (
-          <span className="text-gray-400 line-through text-sm sm:text-base">${originalPrice} USD</span>
+          <span className="text-gray-500 dark:text-gray-400 line-through text-sm sm:text-base">${originalPrice} USD</span>
         )}
         {discount > 0 && (
           <span className="bg-[#e682b6] text-white text-xs px-2 py-1 rounded-full mx-2">

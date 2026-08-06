@@ -26,9 +26,9 @@ const benefits= [
 
 export default function Benefits() {
   return (
-    <div className="py-8 sm:py-16 bg-gradient-to-b from-white to-[#e9e9f7]">
+    <div className="py-8 sm:py-16 bg-gradient-to-b from-white to-[#e9e9f7] dark:from-[#15141d] dark:to-[#1d1b28]">
       <div className="container mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
+        <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc] dark:text-[#b8b8f0]">
           Beneficios de trabajar conmigo
         </h2>
         <div className="w-full mb-8">
@@ -37,13 +37,13 @@ export default function Benefits() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 sm:gap-8 mb-10">
           {benefits.map((service, index) => (
             <div key={index} className="p-6 flex flex-col items-center text-center">
-              <div className="text-[#e682b6] mb-3">
+              <div className="text-[#e682b6] dark:text-[#f09ac7] mb-3">
                 {service.icon}
               </div>
-              <h3 className="text-xl font-semibold mb-2 text-[#8c8cdc]">
+              <h3 className="text-xl font-semibold mb-2 text-[#8c8cdc] dark:text-[#b8b8f0]">
                 {service.title}
               </h3>
-              <p className="text-gray-600">
+              <p className="text-gray-600 dark:text-gray-300">
                 {service.description}
               </p>
             </div>

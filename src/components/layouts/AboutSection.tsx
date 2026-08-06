@@ -1,15 +1,15 @@
 import story from "../../assets/story-large-transp.png"
 export default function About() {
     return (
-        <div id="about" className="py-8 sm:py-16 bg-gradient-to-b from-[#e9e9f7] to-[#e9e9f7]">
+        <div id="about" className="py-8 sm:py-16 bg-[#e9e9f7] dark:bg-[#1d1b28]">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc]">
+                <h2 className="text-3xl font-bold text-center mb-3 text-[#8c8cdc] dark:text-[#b8b8f0]">
                     Mi Historia
                 </h2>
                 <div className="w-full mb-8">
                     <div className="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>
                 </div>
-                <div className="flex flex-col gap-2 text-left text-gray-600 mb-4 mx-auto">
+                <div className="flex flex-col gap-2 text-left text-gray-600 dark:text-gray-300 mb-4 mx-auto">
                 <p><strong>Soy Nicole Saavedra, Educadora conductual felina y tu guía en el mundo
                 felino.</strong></p>
                 <p>Desde niña, siempre tuve una conexión especial con los gatos, y eso me llevó a estudiar su comportamiento y convertir esa pasión en lo que hago hoy.</p>

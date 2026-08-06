@@ -11,7 +11,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="bg-[#e682b6] px-2 sm:p-4 shadow-lg">
+    <nav className="bg-[#e682b6] px-2 sm:p-4 shadow-lg dark:bg-[#8f416a] dark:shadow-black/30">
       <div className="container mx-auto flex items-center justify-between max-md:my-4">
         {/* Botón de menú hamburguesa (solo en móviles) */}
         <button
@@ -44,7 +44,7 @@ const Navbar = () => {
         {/* Menú de navegación */}
         <div
           className={`${isMenuOpen ? "translate-x-0" : "-translate-x-full"
-            } md:translate-x-0 md:flex flex-col md:flex-row items-center space-y-4 md:space-y-0 absolute md:static top-12 left-0 w-[80%] h-full md:w-auto bg-[#e682b6] md:bg-transparent z-20 transition-transform duration-300 ease-in-out`}
+             } md:translate-x-0 md:flex flex-col md:flex-row items-center space-y-4 md:space-y-0 absolute md:static top-12 left-0 w-[80%] h-full md:w-auto bg-[#e682b6] dark:bg-[#8f416a] md:bg-transparent md:dark:bg-transparent z-20 transition-transform duration-300 ease-in-out`}
             // {`${
             //   isMenuOpen ? "translate-x-0" : "-translate-x-full"
             // } md:translate-x-0 fixed md:static top-0 left-0 w-[70%] h-full bg-[#e682b6] top-12 md:bg-transparent z-20 transition-transform duration-300 ease-in-out`}
@@ -52,7 +52,7 @@ const Navbar = () => {
           <div className="flex flex-col md:flex-row selection:md:flex-row space-y-2 md:space-y-0 md:space-x-2 md:mr-6 sm:space-x-6 max-md:pt-2">
             <Link
               to="/"
-              className="text-base hover:text-[#8c8cdc] text-white transition-colors p-2 md:px-1"
+               className="text-base hover:text-[#5b467d] dark:hover:text-[#d8d2ff] text-white transition-colors p-2 md:px-1"
               onClick={toggleMenu}
             >
               <div className="max-md:flex max-md:flex-row max-md:justify-between">
@@ -63,7 +63,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/asesorias"
-              className="text-base hover:text-[#8c8cdc] text-white transition-colors p-2 md:px-1"
+               className="text-base hover:text-[#5b467d] dark:hover:text-[#d8d2ff] text-white transition-colors p-2 md:px-1"
               onClick={toggleMenu}
             >
               <div className="max-md:flex max-md:flex-row max-md:justify-between">
@@ -73,7 +73,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/talleres"
-              className="text-base hover:text-[#8c8cdc] text-white transition-colors p-2 md:px-1"
+               className="text-base hover:text-[#5b467d] dark:hover:text-[#d8d2ff] text-white transition-colors p-2 md:px-1"
               onClick={toggleMenu}
             >
               <div className="max-md:flex max-md:flex-row max-md:justify-between">
@@ -83,7 +83,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/ebooks"
-              className="text-base hover:text-[#8c8cdc] text-white transition-colors p-2 md:px-1"
+               className="text-base hover:text-[#5b467d] dark:hover:text-[#d8d2ff] text-white transition-colors p-2 md:px-1"
               onClick={toggleMenu}
             >
               <div className="max-md:flex max-md:flex-row max-md:justify-between">
@@ -93,7 +93,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/#about"
-              className="text-base hover:text-[#8c8cdc] text-white transition-colors p-2 md:px-1"
+               className="text-base hover:text-[#5b467d] dark:hover:text-[#d8d2ff] text-white transition-colors p-2 md:px-1"
               onClick={toggleMenu}
             >
               <div className="max-md:flex max-md:flex-row max-md:justify-between">
@@ -103,7 +103,7 @@ const Navbar = () => {
             </Link>
             <Link
               to="/#contact"
-              className="text-base hover:text-[#8c8cdc] text-white transition-colors p-2 md:px-1"
+               className="text-base hover:text-[#5b467d] dark:hover:text-[#d8d2ff] text-white transition-colors p-2 md:px-1"
               onClick={toggleMenu}
             >
               <div className="max-md:flex max-md:flex-row max-md:justify-between">
@@ -112,7 +112,7 @@ const Navbar = () => {
               </div>
             </Link>
           </div>
-          <SocialIcons className="text-white hover:text-[#8c8cdc] p-2" />
+          <SocialIcons className="text-white hover:text-[#5b467d] dark:hover:text-[#d8d2ff] p-2" />
         </div>
       </div>
     </nav>

@@ -2,15 +2,15 @@ import { SiWhatsapp } from "@icons-pack/react-simple-icons";
 import profile from "../../assets/profile.jpeg"
 export default function Contact() {
     return (
-        <section id="contact" className="py-8 sm:py-16 bg-gradient-to-b to-white from-[#e9e9f7]">
+        <section id="contact" className="py-8 sm:py-16 bg-gradient-to-b to-white from-[#e9e9f7] dark:from-[#1d1b28] dark:to-[#15141d]">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold text-center mb-4 text-[#8c8cdc]">
+                <h2 className="text-3xl font-bold text-center mb-4 text-[#8c8cdc] dark:text-[#b8b8f0]">
                     Contacto
                 </h2>
                 <div className="w-full mb-4">
                     <div className="h-1 mx-auto gradient w-64 opacity-50 my-0 py-0 rounded-t"></div>
                 </div>
-                <p className="text-center text-gray-600 max-w-2xl mx-auto mb-8">
+                <p className="text-center text-gray-600 dark:text-gray-300 max-w-2xl mx-auto mb-8">
                     ¿Tienes alguna duda o necesitas más información?
                 </p>
                 <div className="grid place-items-center max-w-[75%] md:max-w-[25%] mx-auto mb-6">
