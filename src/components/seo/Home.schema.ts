@@ -10,8 +10,8 @@ export const homeJsonLd = {
             url: `${SITE_URL}/`,
             logo: withSiteUrl('/cat.svg'),
             sameAs: [
-                'https://instagram.com/nicole.etologa',
-                'https://tiktok.com/@nicole.etologa',
+                'https://instagram.com/nicole.educadorafelina',
+                'https://tiktok.com/@nicole.educadorafelina',
             ],
         },
         {

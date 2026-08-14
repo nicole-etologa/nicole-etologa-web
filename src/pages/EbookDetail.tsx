@@ -18,7 +18,7 @@ export default function EbookDetail() {
   return (
     <>
       <Seo
-        title={`${ebook.title} | Guia felina de Nicole Etologa`}
+        title={`${ebook.title} | Guia felina de Nicole Saavedra`}
         description={ebook.description}
         path={`/ebooks/${ebook.id}`}
         image="/cat.svg"

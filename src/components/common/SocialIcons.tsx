@@ -6,8 +6,8 @@ interface SocialIconProps {
 
 export default function SocialIcons({ className = "" }: SocialIconProps) {
   const socialLinks = [
-    { icon: SiInstagram, href: "https://instagram.com/nicole.etologa", label: "Instagram" },
-    { icon: SiTiktok, href: "https://tiktok.com/@nicole.etologa", label: "Tiktok"}
+    { icon: SiInstagram, href: "https://instagram.com/nicole.educadorafelina", label: "Instagram" },
+    { icon: SiTiktok, href: "https://tiktok.com/@nicole.educadorafelina", label: "Tiktok"}
   ];
 
   return (
