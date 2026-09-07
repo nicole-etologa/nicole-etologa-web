@@ -77,7 +77,7 @@ export default function Seo({
 
     upsertMeta('property', 'og:locale', 'es_CL');
     upsertMeta('property', 'og:type', type);
-    upsertMeta('property', 'og:site_name', 'Nicole Etologa');
+    upsertMeta('property', 'og:site_name', 'Nicole Saavedra');
     upsertMeta('property', 'og:title', title);
     upsertMeta('property', 'og:description', description);
     upsertMeta('property', 'og:url', canonicalUrl);
