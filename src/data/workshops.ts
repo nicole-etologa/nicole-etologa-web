@@ -37,7 +37,7 @@ export interface Workshop {
         "📘 Guía descargable del Protocolo de las 3 Etapas ante la tensión entre gatos." ,
         "🎥 Grabación del taller con acceso de por vida."
       ],
-      dateStart:"📅 Jueves 1 de octubre de 2026. 20:00 hrs (hora Chile)",
+      dateStart:"📅 Jueves 1 de octubre de 2026 a las 20:00 hrs (hora Chile)",
       duration: "⏰ Duración aproximada: 1 hora y 30 minutos.",
       mode:"💻 Taller grupal privado online y en vivo por Zoom.",
       earlyAccess: true,
@@ -58,31 +58,31 @@ export interface Workshop {
           answer: "No. Puedes participar directamente en “Del caos a la calma felina 2”, ya que es un taller independiente. No necesitas esperar a que ocurra una pelea para comenzar a ayudarlos."
         }
       ]
-    },
-    {
-      id: "taller-caos-calma-felina",
-      title: "Taller Grabado - Del caos a la calma felina",
-      live: false,
-      new: false,
-      description: "🐾 Un taller para sanar la relación entre tus gatos 🐾",
-      fullDescription: "¿Tus gatos pelean, se evitan o viven en tensión constante? 😿💢 <br> Este taller es para ti si sueñas con una convivencia armoniosa, sin conflictos ni estrés entre tus michis. 🧘‍♀️🐱💕",
-      included: [
-        "Las causas reales que provocan peleas entre gatos.",
-        "Cómo identificar los distintos tipos de agresión felina.",
-        "Estrategias prácticas para aplicar desde el primer día.",
-        "El paso a paso del protocolo de reintroducción para gatos que se rechazan o no se toleran.",
-        "Cómo fomentar una convivencia más pacífica y equilibrada.",
-      ],
-      bonuses: [
-        "🎥 Grabación del taller con acceso de por vida.",
-        "📘 Guía descargable del protocolo de reintroducción o reparación del vínculo felino." 
-      ],
-      dateStart:"",
-      duration: "",
-      mode:"",
-      earlyAccess: false,
-      originalPrice: "",
-      price: "22",
-      link: "https://wa.me/56947023420?text=Hola Nicole, me interesa el Taller grabado - Del caos a la calma felina."
-    }
+     },
+    // {
+    //   id: "taller-caos-calma-felina",
+    //   title: "Taller Grabado - Del caos a la calma felina",
+    //   live: false,
+    //   new: false,
+    //   description: "🐾 Un taller para sanar la relación entre tus gatos 🐾",
+    //   fullDescription: "¿Tus gatos pelean, se evitan o viven en tensión constante? 😿💢 <br> Este taller es para ti si sueñas con una convivencia armoniosa, sin conflictos ni estrés entre tus michis. 🧘‍♀️🐱💕",
+    //   included: [
+    //     "Las causas reales que provocan peleas entre gatos.",
+    //     "Cómo identificar los distintos tipos de agresión felina.",
+    //     "Estrategias prácticas para aplicar desde el primer día.",
+    //     "El paso a paso del protocolo de reintroducción para gatos que se rechazan o no se toleran.",
+    //     "Cómo fomentar una convivencia más pacífica y equilibrada.",
+    //   ],
+    //   bonuses: [
+    //     "🎥 Grabación del taller con acceso de por vida.",
+    //     "📘 Guía descargable del protocolo de reintroducción o reparación del vínculo felino." 
+    //   ],
+    //   dateStart:"",
+    //   duration: "",
+    //   mode:"",
+    //   earlyAccess: false,
+    //   originalPrice: "",
+    //   price: "22",
+    //   link: "https://wa.me/56947023420?text=Hola Nicole, me interesa el Taller grabado - Del caos a la calma felina."
+    // }
   ];
