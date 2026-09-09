@@ -43,7 +43,7 @@ export interface Workshop {
       earlyAccess: true,
       originalPrice: "27",
       price: "22",
-      link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fcourses%2Fmanage%3Fid%3D6a9f59f87e3f43d69b8245fd%26tab%3Demails&sourceInfoType=folder&sourceInfoOrigin=6a9f59f87e3f43d69b8245fd",
+      link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fproducts&sourceInfoType=folder&sourceInfoOrigin=6a9f59f87e3f43d69b8245fd",
       faqs: [
         {
           question: "¿Qué pasa si no puedo asistir en vivo?",
