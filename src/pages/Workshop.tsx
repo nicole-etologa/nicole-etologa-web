@@ -1,5 +1,5 @@
 import Navbar from '../components/layouts/Navbar';
-import { NotebookPen, ShoppingCart } from 'lucide-react';
+import { ClipboardPenLine, NotebookPen, ShoppingCart, Video } from 'lucide-react';
 import PriceDisplay from '../components/common/PriceDisplay';
 import Footer from '../components/layouts/Footer';
 import parse from 'html-react-parser';
@@ -28,10 +28,19 @@ export default function Workshops() {
                     </h1>
                     <div className="space-y-8">
                         {workshopDetails.map((workshop, index) => (
-                            <div key={index} className="bg-white dark:bg-[#211f2c] text-gray-800 dark:text-gray-200 rounded-lg shadow-lg dark:shadow-black/25 p-5">
-                            <div className="flex items-start gap-4">
+                            <div id={workshop.id} key={index} className="relative bg-white dark:bg-[#211f2c] text-gray-800 dark:text-gray-200 rounded-lg shadow-lg dark:shadow-black/25 p-5">
+                            {workshop.new && (
+                                <span className="pointer-events-none absolute right-3 top-3 rounded-full bg-[#c24f8b] px-3 py-1 text-xs font-bold tracking-wide text-white shadow-sm dark:bg-[#e682b6] dark:text-[#211f2c]">
+                                    NUEVO
+                                </span>
+                            )}
+                            <div className={`flex items-start gap-4 ${workshop.new ? "pr-20" : ""}`}>
                                 <div className="bg-[#e682b6] p-4 rounded-lg">
-                                    <NotebookPen className="w-8 h-8 text-white" />
+                                    {workshop.live ? (
+                                        <Video className="w-8 h-8 text-white" />
+                                    ) : (
+                                        <NotebookPen className="w-8 h-8 text-white" />
+                                    )}
                                 </div>
                                 <div className="flex-1">
                                     <div className="flex justify-between items-start">
@@ -89,21 +98,54 @@ export default function Workshops() {
                                     </>
                                 )}
                             </div>
+                            {workshop.faqs && workshop.faqs.length > 0 && (
+                                <div className="my-8">
+                                    <ul className="space-y-2">
+                                        {workshop.faqs.map((faq, idx) => (
+                                            <li key={idx}>
+                                                <p className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] mt-2">{faq.question}</p>
+                                                <p className="text-gray-600 dark:text-gray-300 mt-1">{faq.answer}</p>
+                                            </li>
+                                        ))}
+                                    </ul>
+                                </div>
+                            )}
                             <div className="mb-6">
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] mt-2">Valor:</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] mt-2">Valor {workshop.earlyAccess ? 'Preventa :' : ':'}</h3>
                                 <PriceDisplay
                                     originalPrice={workshop.originalPrice}
                                     currentPrice={workshop.price}
                                 />
-                                <p className="text-gray-600 dark:text-gray-300"><strong>(Pago único – acceso inmediato)</strong></p>
+                                {workshop.live ? (
+                                    <>
+                                       <p className="text-gray-600 dark:text-gray-300"><strong>Preventa disponible hasta el 20 de septiembre de 2026.</strong></p>
+                                    </>
+                                ):(
+                                    <>
+                                       <p className="text-gray-600 dark:text-gray-300"><strong>(Pago único – acceso inmediato)</strong></p>
+                                    </>
+                                )}
+                                
                             </div>
-                            <p className="text-lg font-semibold text-[#c24f8b] dark:text-[#f09ac7]">🔗 Solicita el acceso por WhatsApp +56 9 47023420</p>
-                            <p className='text-lg font-semibold text-[#c24f8b] dark:text-[#f09ac7] my-4'>🐾 ¡Empieza hoy mismo a transformar la convivencia entre tus gatos! 🐾 </p>
+                            
+                            <p className="text-lg font-semibold text-[#c24f8b] dark:text-[#f09ac7]">🔗 Tambien puedes solicitar el acceso por WhatsApp +56 9 47023420</p>
+                            <p className='text-lg font-semibold text-[#c24f8b] dark:text-[#f09ac7] my-4'>🐾 Del caos a la calma, un paso a la vez. 🐾 </p>
                             <div className="flex flex-wrap justify-center md:justify-end gap-2">
-                                <button className="bg-white text-[#c24f8b] hover:bg-gray-100 dark:bg-[#211f2c] dark:text-[#f09ac7] dark:hover:bg-[#2b2838] px-6 py-2 rounded-full flex items-center border border-[#e682b6] transition-colors" onClick={() => window.open(workshop.link, '_blank')}>
-                                    <ShoppingCart className="w-5 h-5 mr-2" />
-                                    Comprar Ahora
-                                </button>
+                                {workshop.earlyAccess ? (
+                                    <>
+                                         <button className="bg-white text-[#c24f8b] hover:bg-gray-100 dark:bg-[#211f2c] dark:text-[#f09ac7] dark:hover:bg-[#2b2838] px-6 py-2 rounded-full flex items-center border border-[#e682b6] transition-colors" onClick={() => window.open(workshop.link, '_blank')}>
+                                            <ClipboardPenLine className="w-5 h-5 mr-2" />
+                                            Quiero inscribirme en preventa
+                                        </button>
+                                    </>
+                                ):(
+                                    <>
+                                         <button className="bg-white text-[#c24f8b] hover:bg-gray-100 dark:bg-[#211f2c] dark:text-[#f09ac7] dark:hover:bg-[#2b2838] px-6 py-2 rounded-full flex items-center border border-[#e682b6] transition-colors" onClick={() => window.open(workshop.link, '_blank')}>
+                                            <ShoppingCart className="w-5 h-5 mr-2" />
+                                            Comprar Ahora
+                                        </button>
+                                    </>
+                                )}
                             </div>
 
                             </div>
