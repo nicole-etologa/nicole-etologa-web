@@ -20,10 +20,10 @@ export interface Workshop {
   export const workshops: Workshop[] = [
     {
       id: "taller-caos-calma-felina-2",
-      title: "Taller En Vivo - Del caos a la calma felina 2",
-      live: true,
+      title: "Taller Grabado – Del caos a la calma felina 2",
+      live: false,
       new: true,
-      description: "Aprende cuándo anticipar, cuándo observar y cuándo intervenir ante la tensión entre tus gatos ¿Tus gatos se vigilan, se bloquean, se persiguen o tienen encuentros que podrían terminar en una pelea? 😿💢 ",
+      description: "Aprende cuándo observar, cuándo redirigir y cómo intervenir ante la tensión entre tus gatos. ¿Tus gatos se vigilan, se bloquean, se persiguen o tienen encuentros que podrían terminar en una pelea? 😿💢 ",
       fullDescription: "Muchas peleas comienzan con señales sutiles que suelen pasar inadvertidas. En este taller aprenderás a reconocerlas y a actuar de manera respetuosa antes de que el conflicto escale.",
       included: [
         "✅ A reconocer las señales tempranas de tensión entre gatos.",
@@ -33,29 +33,38 @@ export interface Workshop {
         "✅ El Protocolo de las 3 Etapas para construir una convivencia más segura y tranquila.",
       ],
       bonuses: [
-        "💬 Sección de preguntas y respuestas en vivo.",
-        "📘 Guía descargable del Protocolo de las 3 Etapas ante la tensión entre gatos." ,
-        "🎥 Grabación del taller con acceso de por vida."
+        "💬 Acceso a la sección de preguntas y respuestas realizada durante el taller en vivo.",
+        "📘 Documento de apoyo: Protocolo de las 3 Etapas ante la tensión entre gatos." ,
+        "🎥 Grabación completa del taller.",
+        "♾️ Acceso de por vida para que puedas verlo todas las veces que necesites."
       ],
-      dateStart:"📅 Jueves 1 de octubre de 2026 a las 20:00 hrs (hora Chile)",
+      dateStart:"",
       duration: "⏰ Duración aproximada: 1 hora y 30 minutos.",
-      mode:"💻 Taller grupal privado online y en vivo por Zoom.",
-      earlyAccess: true,
-      originalPrice: "27",
-      price: "22",
+      mode:"💻 Taller online grabado.",
+      earlyAccess: false,
+      originalPrice: "40",
+      price: "27",
       link: "https://nas.com/checkout-global?communityId=6a6baa3f0e9ba41d2b897f5b&communityCode=NICOLEETOLOGAS_BUSIN&requestor=signupRequestor&linkClicked=https%3A%2F%2Fnas.com%2Fes-mx%2Fportal%2Fproducts&sourceInfoType=folder&sourceInfoOrigin=6a9f59f87e3f43d69b8245fd",
       faqs: [
         {
-          question: "¿Qué pasa si no puedo asistir en vivo?",
-          answer: "No te preocupes, todos los inscritos recibirán la grabación del taller para que puedan verlo en cualquier momento."
-        },
-        {
-          question: "¿Cómo puedo hacer preguntas durante el taller?",
-          answer: "Durante el taller habrá un espacio para preguntas y respuestas en vivo, donde podrás plantear tus dudas y recibir orientación directa."
-        },
-        {
           question: "¿Necesito haber realizado el primer taller?",
-          answer: "No. Puedes participar directamente en “Del caos a la calma felina 2”, ya que es un taller independiente. No necesitas esperar a que ocurra una pelea para comenzar a ayudarlos."
+          answer: "No. Del caos a la calma felina 2 es un taller independiente, por lo que puedes realizarlo aunque no hayas participado en la primera edición."
+        },
+        {
+          question: "¿Cuándo podré ver el taller?",
+          answer: "Inmediatamente después de realizar la compra podrás acceder a la grabación completa y al documento de apoyo."
+        },
+        {
+          question: "¿Puedo verlo más de una vez?",
+          answer: "Sí. Tendrás acceso de por vida para revisarlo todas las veces que lo necesites."
+        },
+        {
+          question: "¿Puedo realizarlo si mis gatos todavía no se han peleado?",
+          answer: "Sí. No necesitas esperar a que ocurra una pelea. El taller también te ayudará a reconocer señales tempranas y prevenir que la tensión aumente."
+        },
+        {
+          question: "¿El taller incluye una evaluación personalizada de mis gatos?",
+          answer: "No. El taller entrega herramientas generales y prácticas, pero no incluye el análisis individual del caso ni acompañamiento personalizado."
         }
       ]
      },
