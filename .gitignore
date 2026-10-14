@@ -28,3 +28,4 @@ dist-ssr
 .agents
 AGENTS.md
 skills-lock.json
+.codegraph

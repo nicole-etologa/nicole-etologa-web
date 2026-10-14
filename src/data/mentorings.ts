@@ -94,6 +94,6 @@ export interface Mentoring {
       ],
       originalPrice: "",
       price: "",
-      link: "https://wa.me/56947023420?text=Hola Nicole, me interesa adquirir la Asesoría Express."
+      link: "https://pagar.nicoleeducadorafelina.com/agenda-plan-express"
     }
   ];
