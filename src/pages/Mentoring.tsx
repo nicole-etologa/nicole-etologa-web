@@ -46,7 +46,7 @@ export default function Mentorings() {
                                 </div>
                             </div>
                             <div className="mb-4">
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">🐾 ¿Qué incluye?</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">💛 ¿Qué incluye tu asesoría?</h3>
                                 <ul className="grid grid-cols-1 gap-2">
                                     {mentoring.included.map((include, idx) => (
                                         <li key={idx} className="flex items-start text-gray-600 dark:text-gray-300">
@@ -57,7 +57,7 @@ export default function Mentorings() {
                                 </ul>
                             </div>
                             <div className={`mb-4 ${mentoring.bonuses.length === 0 ? "hidden" : ""}`}>
-                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">🎁 BONOS INCLUIDOS (valorados en $150 USD)</h3>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">🎁 BONOS INCLUIDOS</h3>
                                 <ul className={`grid grid-cols-1 ${mentoring.bonuses.length > 1 ? "md:grid-cols-2" : ""} gap-2`}>
                                     {mentoring.bonuses.map((bonus, idx) => (
                                         <li key={idx} className="flex items-start text-gray-600 dark:text-gray-300">
@@ -67,7 +67,7 @@ export default function Mentorings() {
                                     ))}
                                 </ul>
                             </div>
-                            <div className="mb-6">
+                            <div className={`mb-6 ${mentoring.learned.length === 0 ? "hidden" : ""}`}>
                                 <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">✨ ¿Qué aprenderás y lograrás?</h3>
                                 <ol className="grid grid-cols-1 gap-2">
                                     {mentoring.learned.map((learn, idx) => (
@@ -77,6 +77,20 @@ export default function Mentorings() {
                                         </li>
                                     ))}
                                 </ol>
+                            </div>
+                            <div className={`mb-6 ${mentoring.about?.length === 0 ? "hidden" : ""}`}>
+                                <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">✨ Sobre la asesoría</h3>
+                                <ul className="grid grid-cols-1 gap-2">
+                                    {mentoring.about?.map((item, idx) => (
+                                        <li key={idx} className="flex items-start text-gray-600 dark:text-gray-300">
+                                            <div className="w-2 h-2 bg-[#e682b6] rounded-full mt-2 mr-2 flex-shrink-0"></div>
+                                            <p className="flex-grow">{parse(item)}</p>
+                                        </li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className={`mb-6 ${mentoring.finalText ? "" : "hidden"}`}>
+                                {parse(mentoring.finalText || "")}
                             </div>
                             <div className="mb-4">
                                 <PriceDisplay
