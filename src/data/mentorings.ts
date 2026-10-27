@@ -8,6 +8,7 @@ export interface Mentoring {
     learned: string[];
     originalPrice: string;
     price: string;
+    textButton?: string;
     link: string;
   }
   
@@ -94,6 +95,7 @@ export interface Mentoring {
       ],
       originalPrice: "",
       price: "",
+      textButton: "Agendar cita",
       link: "https://pagar.nicoleeducadorafelina.com/agenda-plan-express"
     }
   ];
