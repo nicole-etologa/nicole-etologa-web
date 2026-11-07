@@ -78,7 +78,7 @@ export default function Mentorings() {
                                     ))}
                                 </ol>
                             </div>
-                            <div className={`mb-6 ${mentoring.about?.length === 0 ? "hidden" : ""}`}>
+                            <div className={`mb-6 ${mentoring.about?.length === 0 || !mentoring.about ? "hidden" : ""}`}>
                                 <h3 className="text-lg font-semibold text-[#8c8cdc] dark:text-[#b8b8f0] my-2">✨ Sobre la asesoría</h3>
                                 <ul className="grid grid-cols-1 gap-2">
                                     {mentoring.about?.map((item, idx) => (
